@@ -51,10 +51,10 @@ p.lead { font-size: 17.5px; line-height: 1.6; margin-bottom: 17px; }
 
 aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; color: #222222; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
+h1, h2, h3, h4, h5, h6 { font-family: "Adelle", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; color: #222222; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
-h1 { font-size: 44px; }
+h1 { font-size: 44px; font-weight: 100;}
 
 h2 { font-size: 37px; }
 
@@ -1071,3 +1071,6 @@ div.progress.round .meter { -webkit-border-radius: 1000px; -moz-border-radius: 1
   .top-bar.expanded ul li.toggle-topbar a { content: ""; display: block; width: 0; height: 0; border: solid 8px; border-color: transparent transparent rgba(255, 255, 255, 0.5) transparent; top: auto; bottom: 50%; margin-bottom: -4px; }
   .top-bar ul li.has-button { padding: 0 20px 5px; }
   .top-bar ul li .button.small { margin: 0 !important; display: inline-block; width: 100%; } }
+
+  h4.intro {font-weight: 100; margin: 15px 0 35px 0;}
+ 
