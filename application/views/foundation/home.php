@@ -1,7 +1,10 @@
 	<div class="row">	
 			<div class="five columns">
 				<?php echo $heading; ?>
-			</div>			
+			</div>
+			<div class="seven columns">
+			<h1 class="welcome"><strong>PUT A VIDEO OR GALLERY HERE</strong></h1>
+			</div>
 	</div>
 	
 	<div class="row">

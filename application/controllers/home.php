@@ -5,6 +5,7 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
+		//$this->load->model('home_data');
 		$data = array(
 		'title' => 'The Elements Exhibition | Earth, Water, Fire, Air - Hassad Museum of Science, London',
 		'heading' => '<h1 class="welcome">Welcome to the <strong>Hassad Museum of Science</strong></h1>',
