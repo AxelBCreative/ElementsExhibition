@@ -7,8 +7,8 @@ class Home extends CI_Controller {
 	{
 		$data = array(
 		'title' => 'The Elements Exhibition | Earth, Water, Fire, Air - Hassad Museum of Science, London',
-		'heading' => '<h1>Welcome to the <strong>Hassad Museum of Science</strong></h1>',
-		'inviteimage' => 'images/foundation/got_your_invite.png',
+		'heading' => '<h1 class="welcome">Welcome to the <strong>Hassad Museum of Science</strong></h1>',
+		'inviteimage' => 'assets/images/foundation/got_your_invite.png',
 		'copy' => '<h4 class="intro">The Hassad Museum of Science is famous for its world-renowned exhibits, and now
 						we invite you to explore <strong>the elements</strong></h4>
 						<h4 class="intro">Inspired by <em><strong>Hellenic alchemy</strong></em> (that\'s Ancient Greek - you\'re

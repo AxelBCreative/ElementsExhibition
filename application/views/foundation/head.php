@@ -16,14 +16,14 @@
   
   <!-- Included CSS Files (Uncompressed) -->
   
-  <link rel="stylesheet" href="<?php echo base_url(); ?>stylesheets/foundation.css">
+  <!--<link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/foundation.css">-->
   
   
   <!-- Included CSS Files (Compressed) -->
-  <!--<link rel="stylesheet" href="<?php echo base_url(); ?>stylesheets/foundation.min.css">-->
-  <link rel="stylesheet" href="<?php echo base_url(); ?>stylesheets/app.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/app.css">
 
-  <script src="<?php echo base_url(); ?>javascripts/modernizr.foundation.js"></script>
+  <script src="<?php echo base_url(); ?>assets/javascripts/modernizr.foundation.js"></script>
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>

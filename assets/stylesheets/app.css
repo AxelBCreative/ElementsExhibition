@@ -1,0 +1,147 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Fonts
+:: Shared Styles
+:: Home Page
+:: Page Name 2
+*/
+
+/* -----------------------------------------
+   Fonts
+----------------------------------------- */
+
+@font-face {
+    font-family: 'Adelle Bold';
+    src: url('fonts/adelle/adelle_bold-webfont.eot');
+    src: url('fonts/adelle/adelle_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle_bold-webfont.svg#adelle_rgbold') format('svg'),	
+         url('fonts/adelle/adelle_bold-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle_bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Adelle Regular';
+    src: url('fonts/adelle/adelle_reg-webfont.eot');
+    src: url('fonts/adelle/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/adelle/adelle_reg-webfont.svg#adelle_rgregular') format('svg'),	
+         url('fonts/adelle/adelle_reg-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle_reg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Adelle Semibold';
+    src: url('fonts/adelle/adelle_semibold-webfont.eot');
+    src: url('fonts/adelle/adelle_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/adelle/adelle_semibold-webfont.svg#adelle_sbsemibold') format('svg'),	
+         url('fonts/adelle/adelle_semibold-webfont.woff') format('woff'),
+         url('fonts/adelle/adelle_semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo500_italic';
+    src: url('fonts/museo/museo_500italic-webfont-webfont.eot');
+    src: url('fonts/museo/museo_500italic-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo/museo_500italic-webfont-webfont.svg#museo500_italic') format('svg'),	
+         url('fonts/museo/museo_500italic-webfont-webfont.woff') format('woff'),
+         url('fonts/museo/museo_500italic-webfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo 500';
+    src: url('fonts/museo/museo_500-webfont-webfont.eot');
+    src: url('fonts/museo/museo_500-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo/museo_500-webfont-webfont.svg#museo500') format('svg'),	
+         url('fonts/museo/museo_500-webfont-webfont.woff') format('woff'),
+         url('fonts/museo/museo_500-webfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo Sans 300 Italic';
+    src: url('fonts/museo/museosans_300italic-webfont-webfont.eot');
+    src: url('fonts/museo/museosans_300italic-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo/museosans_300italic-webfont-webfont.svg#museo_sans300_italic') format('svg'),	
+         url('fonts/museo/museosans_300italic-webfont-webfont.woff') format('woff'),
+         url('fonts/museo/museosans_300italic-webfont-webfont.ttf') format('truetype')l
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('museosans_300-webfont-webfont.eot');
+    src: url('museosans_300-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosans_300-webfont-webfont.svg#museo_sans300') format('svg'),	
+         url('museosans_300-webfont-webfont.woff') format('woff'),
+         url('museosans_300-webfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_sans_rounded300';
+    src: url('museosansrounded_300-webfont-webfont.eot');
+    src: url('museosansrounded_300-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosansrounded_300-webfont-webfont.svg#museo_sans_rounded300') format('svg'),	
+         url('museosansrounded_300-webfont-webfont.woff') format('woff'),
+         url('museosansrounded_300-webfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('museoslab_500-webfont-webfont.eot');
+    src: url('museoslab_500-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museoslab_500-webfont-webfont.svg#museo_slab500') format('svg'),	
+         url('museoslab_500-webfont-webfont.woff') format('woff'),
+         url('museoslab_500-webfont-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body {background: url('../images/foundation/background.jpg') repeat-x;}
+
+h1, h2, h3, h4, h5, h6 {font-family: "Adelle Regular"; font-smooth: always;
+  -webkit-font-smoothing: antialiased;}
+
+
+/* -----------------------------------------
+   Home Page
+----------------------------------------- */
+h1.welcome {font-weight: 100;}
+	h1.welcome strong {font-family: "Adelle Bold"; font-weight: 900;}
+h4.intro {margin: 15px 0 35px 0; font-family: 'Museo Sans'; font-weight: 400;}
+	h4.intro strong {font-weight: 600;}
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

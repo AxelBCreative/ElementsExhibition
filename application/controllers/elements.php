@@ -5,9 +5,15 @@ class Elements extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('foundation/head');
+		$data = array(
+			'title' => 'The Elements',
+			'heading' => 'The Elements',
+			'copy' => 'Blah blah blah'
+		);
+	
+		$this->load->view('foundation/head', $data);
 		$this->load->view('foundation/header');
-		$this->load->view('foundation/home');
+		$this->load->view('foundation/elements_index');
 		$this->load->view('foundation/footer');
 	}
 	

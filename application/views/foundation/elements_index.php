@@ -3,12 +3,12 @@
 				<?php echo $heading; ?>
 			</div>
 			<div class="five columns">
-				<a href="vip/invite"><img src="<?php echo $inviteimage; ?>" /></a>
+				
 			</div>
 	</div>		
 		
 	<div class="row">
-		<div class="seven columns">
+		<div class="six columns">
 			<?php echo $copy; ?>
 		</div>
 	</div>
