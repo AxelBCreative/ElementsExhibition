@@ -129,8 +129,24 @@ body {
 	padding: 25px 15px 0 15px;
 }
 
-h1, h2, h3, h4, h5, h6 {font-family: "Adelle Regular"; font-smooth: always;
-  -webkit-font-smoothing: antialiased;}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Adelle Regular"; 
+}
+  
+nav#elements { 
+	font-family: 'Museo Sans'; 
+	font-weight: 100; 
+	font-size:150%;
+	text-transform: uppercase;
+	margin: 15px 0 15px 0;
+}
+	nav#elements span {
+		font-weight: 900;
+	}
+		nav#elements span#earth {color: #622209;}
+		nav#elements span#water {color: #64a8c2;}
+		nav#elements span#fire {color: #f1901f;}
+		nav#elements span#air {color: #a2a5a9;}		
 
 
 /* -----------------------------------------
