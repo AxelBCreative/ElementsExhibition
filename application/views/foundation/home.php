@@ -1,26 +1,23 @@
-	<div class="row">	
-			<div class="five columns">
+	<header class="header row">	
+			<section class="five columns">
 				<?php echo $heading; ?>
-			</div>
-			<div class="seven columns">
-			<h1 class="welcome"><strong>PUT A VIDEO OR GALLERY HERE</strong></h1>
-			</div>
-	</div>
+			</section>
+	</header>
 	
-	<div class="row">
-		<div class="twelve columns">
+	<section class="row">
+		<section class="twelve columns">
 				<div class="row">
 						
-					<div class="seven columns">
+					<article class="intro-message seven columns">
 						<?php echo $copy; ?>
-					</div>
+					</article>
 				
 					<div class="row">
-						<div class="four columns">
+						<div class="five columns">
 							<a href="vip/invite"><img src="<?php echo $inviteimage; ?>" /></a>
 						</div>
 					</div>	
 				
 				</div>
-		</div>
-	</div><!--.row-->
+		</section>
+	</section><!--.row-->

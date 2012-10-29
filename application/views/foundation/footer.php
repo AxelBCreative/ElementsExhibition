@@ -1,3 +1,13 @@
+  <footer>
+	<div class="row">
+		<div class="five columns">
+			<a href="http://www.elementsexhibition.co.uk">Home</a> | <a href="about">About</a> | <a href="privacy">Privacy Policy</a>
+		</div>
+		<div class="five columns rightalign">
+			&copy; Copyright <?php echo date('Y'); ?> <a href="http://www.elementsexhibition.co.uk">The Hassad Museum of Science</a>
+		</div>		
+	</div><!-- footer .row-->
+  </footer>
   <!-- Included JS Files (Uncompressed) -->
   <!--
   

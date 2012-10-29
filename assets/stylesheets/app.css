@@ -132,13 +132,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Adelle Regular"; 
 }
-  
+
 nav#elements { 
 	font-family: 'Museo Sans'; 
 	font-weight: 100; 
-	font-size:150%;
+	font-size: 150%;
 	text-transform: uppercase;
-	margin: 15px 0 15px 0;
 }
 	nav#elements span {
 		font-weight: 900;
@@ -148,6 +147,9 @@ nav#elements {
 		nav#elements span#fire {color: #f1901f;}
 		nav#elements span#air {color: #a2a5a9;}		
 
+footer div {
+	font-size:12px;
+}
 
 /* -----------------------------------------
    Home Page
