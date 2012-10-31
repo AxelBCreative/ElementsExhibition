@@ -11,8 +11,8 @@ class Home extends CI_Controller {
 		'heading' => '<h1 class="welcome">Welcome to the <strong>Hassad Museum of Science</strong></h1>',
 		'inviteimage' => 'assets/images/foundation/got_your_invite.png',
 		'copy' => '<h4 class="intro">The Hassad Museum of Science is famous for its world-renowned exhibits, and now
-						we invite you to explore <strong>the elements</strong></h4>
-						<h4 class="intro">Inspired by <em><strong>Hellenic alchemy</strong></em> (that\'s Ancient Greek - you\'re
+						we invite you to explore <strong><em>the elements</em></strong>.</h4>
+						<h4 class="intro">Inspired by <strong><em>Hellenic alchemy</em></strong> (that\'s Ancient Greek - you\'re
 						already learning!), the exhibition aims to detail how far we\'ve come in the understanding of
 						what makes up our world.</h4>'
 		);
