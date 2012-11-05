@@ -1,4 +1,6 @@
-<body>
+
+
+<body <?php if(isset($element)) echo "class='".strtolower($element)."'";?>>
 <header>
 	<section class="logo row">
 		<span class="six columns">

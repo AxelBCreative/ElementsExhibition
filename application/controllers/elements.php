@@ -19,7 +19,20 @@ class Elements extends CI_Controller {
 	
 	public function fire()
 	{
-		$this->load->view('foundation/head');
+		$data = array(
+			'title' => 'Fire - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
+			'heading' => 'This is <strong>Fire!</strong>',
+			'element' => 'Fire',
+			'introparagraph' => 'Fire has been used by humans for millennia - from keeping us warm to keeping us fed.',
+			'image_one' => '../assets/images/pics/cooking.jpg',
+			'image_one_title' => 'We cook to help digestion - and create tasty meals!',
+			'image_two' => '../assets/images/pics/fire-breather.jpg',			
+			'image_two_title' => 'A fire breather shows off his tricks',			
+			'image_three' => '../assets/images/pics/fireworks.jpg',			
+			'image_three_title' => 'Spectacular fireworks displays',			
+		);
+		
+		$this->load->view('foundation/head', $data);
 		$this->load->view('foundation/header');		
 		$this->load->view('elements/fire');
 		$this->load->view('foundation/footer');
@@ -48,7 +61,6 @@ class Elements extends CI_Controller {
 			'heading' => 'This is <strong>Air!</strong>',
 			'element' => 'Air',
 			'introparagraph' => 'We have made use of air for centuries - from sailing ships to powering wind turbines.',
-			'howweuse' => 'We use air',
 			'image_one' => '../assets/images/pics/wind-turbine.jpg',
 			'image_one_title' => 'We use wind to power turbines',
 			'image_two' => '../assets/images/pics/hot-air-balloons.jpg',			
