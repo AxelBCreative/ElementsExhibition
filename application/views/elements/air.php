@@ -18,91 +18,57 @@
         <img src="<?php echo $image_three; ?>" alt="<?php echo $image_three_title; ?>" title="<?php echo $image_three_title; ?> - Learn at the Elements Exhibition">
 	  </div>
 	</section>
-  
-
+ 
       <div class="row">
         <div class="six columns">
-          <div class="panel">
-            <p>Six columns</p>
-          </div>
+			<h3>For Power</h3>
+				<p>
+				Wind turbine power is our cleanest and safest form of energy. Full stop. 
+				The <a href="http://en.wikipedia.org/wiki/London_Array" target="blank">London Array</a> is
+				expected to generate 630 megawatts (MW) of power alone, with the potential to become a gigawatt farm
+				in the future!
+				</p>
         </div>
         <div class="six columns">
-          <div class="panel">
-            <p>Six columns</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
-        </div>
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
-        </div>
-        <div class="four columns">
-          <div class="panel">
-            <p>Four columns</p>
-          </div>
+			<h3>For Fun</h3>
+				<p>
+				Sailing and Hot Air Ballooning are just two of the fun past times that require air and wind for the enjoyment.
+				One of these sports is also one you can experience at the Elements Exhibition... but we're not telling you which!
+				</p>
         </div>
       </div>
       
       
-      <h3>Tabs</h3>
+      <h3>At the Museum</h3>
       <dl class="tabs">
-        <dd class="active"><a href="#simple1">Simple Tab 1</a></dd>
-        <dd><a href="#simple2">Simple Tab 2</a></dd>
-        <dd><a href="#simple3">Simple Tab 3</a></dd>
+        <dd class="active"><a href="#hurricane">Hurricane Simulator</a></dd>
+        <dd><a href="#ballooning">Hot Air Ballooning</a></dd>
+        <dd><a href="#respiration">Respiration</a></dd>
       </dl>
 
       <ul class="tabs-content">
-        <li class="active" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
-        <li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
-        <li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+        <li class="active" id="hurricaneTab">
+		<h4>Ever wondered what it's like to be outside during an angry, raging storm? </h4>
+		<p>Wind isn't always good to us. If you're fortunate enough to not live in a storm-prone area, you can experience the next worst thing - our hurricane simulator!</p>
+		<p>Prepare to be thrashed around a (padded!) room with your team, debris flying everywhere, you as you try to make your way to the nearest storm shelter.</p>
+		</li>
+        <li id="ballooningTab">
+		<h4>Remember when we said we wouldn't tell you which sport you can experience at the museum?</h4>
+		<p>We lied. Sorry about that.</p>
+		<p>But we're not sorry to say you can take part in our daily hot air balloon race! Think you can beat our best time?</p>
+		</li>
+		
+        <li id="respirationTab">
+		<h4>You didn't forget that we breathe the air, did you?</h4>
+		<p>With all the other fun and exciting stuff that happens with air, you could be forgiven for doing so.</p>
+		<p>The Hassad Museum of Science also has a special feature dedicated to human respiration which can't be missed.</p>
+		</li>
       </ul>
       
       
-      
-      <h3>Buttons</h3>
-
-      <div class="row">
-        <div class="six columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
-        </div>
-        <div class="six columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
-      </div>
+     
       
     </div>
 
 <?php $this->load->view('foundation/sidebar'); ?>
-  </div>
-
-  
-  
-  
-  
-  <div class="row">
-    <div class="twelve columns">
-      <h3>Reveal</h3>
-      <p><a href="#" data-reveal-id="exampleModal" class="button">Example modal</a></p>
-    </div>
-  </div>
-  
-  <div id="exampleModal" class="reveal-modal">
-    <h2>This is a modal.</h2>
-    <p>
-      Reveal makes these very easy to summon and dismiss. The close button is simple an anchor with a unicode 
-      character icon and a class of <code>close-reveal-modal</code>. Clicking anywhere outside the modal will 
-      also dismiss it.
-    </p>
-    <a class="close-reveal-modal">×</a>
-  </div>
+  </div> 
