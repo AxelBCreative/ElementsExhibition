@@ -21,6 +21,7 @@
   
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/font-awesome.css">  
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/app.css">
 

@@ -1,23 +1,25 @@
   <div class="row">
     <div class="twelve columns">
-      <h2>This is Air!</h2>
-      <p>This is version <strong>3.1.1</strong> generated on October 23, 2012.</p>
+      <h2><?php echo $heading; ?></h2>
+      <p class="intro-paragraph"><?php echo $introparagraph; ?></p>
       <hr />
     </div>
   </div>
 
   <div class="row">
     <div class="eight columns">
-      <h3>The Grid</h3>
+      <h3>How we use <?php echo $element; ?></h3>
 
-      <!-- Grid Example -->
-      <div class="row">
-        <div class="twelve columns">
-          <div class="panel">
-            <p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-          </div>
-        </div>
-      </div>
+  
+    <section class="twelve columns">
+      <div id="featured">
+        <img src="<?php echo $image_one; ?>" alt="<?php echo $image_one_title; ?>" title="<?php echo $image_one_title; ?> - Learn at the Elements Exhibition">
+        <img src="<?php echo $image_two; ?>" alt="<?php echo $image_two_title; ?>" title="<?php echo $image_two_title; ?> - Learn at the Elements Exhibition">
+        <img src="<?php echo $image_three; ?>" alt="<?php echo $image_three_title; ?>" title="<?php echo $image_three_title; ?> - Learn at the Elements Exhibition">
+	  </div>
+	</section>
+  
+
       <div class="row">
         <div class="six columns">
           <div class="panel">
@@ -81,31 +83,10 @@
       
     </div>
 
-    <div class="four columns">
-      <h4>Getting Started</h4>
-      <p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-      <h4>Other Resources</h4>
-      <p>Once you've exhausted the fun in this document, you should check out:</p>
-      <ul class="disc">
-        <li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-        <li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-        <li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-      </ul>
-    </div>
+<?php $this->load->view('foundation/sidebar'); ?>
   </div>
 
   
-  <div class="row">
-    <div class="twelve columns">
-      <h3>Orbit</h3>
-      <div id="featured">
-        <img src="http://placehold.it/1200x250&text=Slide_1" alt="slide image">
-        <img src="http://placehold.it/1200x250&text=Slide_2" alt="slide image">
-        <img src="http://placehold.it/1200x250&text=Slide_3" alt="slide image">
-      </div>
-    </div>
-  </div>
   
   
   

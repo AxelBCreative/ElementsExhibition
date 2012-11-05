@@ -6,7 +6,7 @@ class Elements extends CI_Controller {
 	public function index()
 	{
 		$data = array(
-			'title' => 'The Elements',
+			'title' => 'The Elements | Earth, Water, Fire, Air - Hassad Museum of Science, London',
 			'heading' => 'The Elements',
 			'copy' => 'Blah blah blah'
 		);
@@ -43,7 +43,21 @@ class Elements extends CI_Controller {
 	
 	public function air()
 	{
-		$this->load->view('foundation/head');
+		$data = array(
+			'title' => 'Air - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
+			'heading' => 'This is <strong>Air!</strong>',
+			'element' => 'Air',
+			'introparagraph' => 'We have made use of air for centuries - from sailing ships to powering wind turbines.',
+			'howweuse' => 'We use air',
+			'image_one' => '../assets/images/pics/wind-turbine.jpg',
+			'image_one_title' => 'We use wind to power turbines',
+			'image_two' => '../assets/images/pics/hot-air-balloons.jpg',			
+			'image_two_title' => 'We use hot air to fly balloons',			
+			'image_three' => '../assets/images/pics/sailing.jpg',			
+			'image_three_title' => 'We use wind to power sailing boats',			
+		);
+		
+		$this->load->view('foundation/head', $data);
 		$this->load->view('foundation/header');
 		$this->load->view('elements/air');
 		$this->load->view('foundation/footer');

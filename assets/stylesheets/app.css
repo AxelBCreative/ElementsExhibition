@@ -62,23 +62,37 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Adelle Regular" !important; 
 }
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
+	font-family: "Adelle Bold" !important;
+}
 
 a img {border: none;} /* Stupid IE! */
 
+
 nav#elements{ 
-	font-family: 'Source Sans Pro' !important; 
+	font-family: Arial, 'Source Sans Pro' !important; 
 	font-weight: 100;
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
-	nav#elements span {
+	nav#elements div a {
 		font-weight: 700;
 		font-size: 170%;
 	}
-		nav#elements span#earth {color: #622209;}
-		nav#elements span#water {color: #64a8c2;}
-		nav#elements span#fire {color: #f1901f;}
-		nav#elements span#air {color: #a2a5a9;}		
+		nav#elements a#earth {color: #622209;}
+		nav#elements a#water {color: #64a8c2;}
+		nav#elements a#fire {color: #f1901f;}
+		nav#elements a#air {color: #a2a5a9;}		
 
+	nav#elements nav#main {
+		font-size:170%;
+		font-weight: 400;
+		text-transform: none !important;
+	}
+		nav#elements nav#main a {
+			margin: 0 10px 0 10px;
+		}
+		
 footer {
 	font-size:12px;
 }
@@ -88,14 +102,34 @@ footer {
    Home Page
 ----------------------------------------- */
 h1.welcome {font-weight: 100;}
-	h1.welcome strong {font-family: "Adelle Bold"; font-weight: 900;}
-h4.intro {margin: 15px 0 35px 0; font-family: 'Source Sans Pro' !important; font-weight: 400;}
+	h1.welcome strong {font-family: "Adelle Bold"; font-weight: 900; display:block;}
+h4.intro {margin: 15px 0 35px 0; font-family: Arial, sans-serif !important; font-weight: 400;}
 	h4.intro strong {font-weight: 700;}
 
 
 
 /* -----------------------------------------
-   Page Name 2
+   Elements Pages
 ----------------------------------------- */
+h2 strong {font-family: "Adelle Bold";}
 
+p.intro-paragraph {
+	font-size: 2em;
+}
 
+a.get-your-invite {
+	display: block;
+	font-size: 1.5em;
+	padding: 7px 5px 5px 10px;
+	color: #fff;
+	text-shadow: 1px 1px 0px #333;
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	border-radius: 5px;
+}
