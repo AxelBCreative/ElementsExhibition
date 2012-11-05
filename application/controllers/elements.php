@@ -17,6 +17,36 @@ class Elements extends CI_Controller {
 		$this->load->view('foundation/footer');
 	}
 	
+	
+	public function earth()
+	{
+		$this->load->view('foundation/head');
+		$this->load->view('foundation/header');
+		$this->load->view('elements/earth');
+		$this->load->view('foundation/footer');
+	}
+	
+	public function water()
+	{
+		$data = array(
+			'title' => 'Water - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
+			'heading' => 'This is <strong>Water!</strong>',
+			'element' => 'Water',
+			'introparagraph' => '"Water is the driving force in nature", said da Vinci',
+			'image_one' => '../assets/images/pics/hydro-dam.jpg',
+			'image_one_title' => 'This hydroelectric power station provides electricity to thousands of people in Kyrgyz cities',
+			'image_two' => '../assets/images/pics/surfing.jpg',			
+			'image_two_title' => 'Surf\'s up!',			
+			'image_three' => '../assets/images/pics/irrigation.jpg',			
+			'image_three_title' => 'An irrigation ditch, providing water for crops',
+		);
+		
+		$this->load->view('foundation/head', $data);
+		$this->load->view('foundation/header');
+		$this->load->view('elements/water');
+		$this->load->view('foundation/footer');
+	}	
+	
 	public function fire()
 	{
 		$data = array(
@@ -37,22 +67,6 @@ class Elements extends CI_Controller {
 		$this->load->view('elements/fire');
 		$this->load->view('foundation/footer');
 	}
-	
-	public function earth()
-	{
-		$this->load->view('foundation/head');
-		$this->load->view('foundation/header');
-		$this->load->view('elements/earth');
-		$this->load->view('foundation/footer');
-	}
-	
-	public function water()
-	{
-		$this->load->view('foundation/head');
-		$this->load->view('foundation/header');
-		$this->load->view('elements/water');
-		$this->load->view('foundation/footer');
-	}	
 	
 	public function air()
 	{
