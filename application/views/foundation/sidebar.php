@@ -8,8 +8,9 @@
       <h4>Learn much more at the museum</h4>
       <p>Once you've exhausted the fun on our website, you'll be able to explore the massive world of the elements at the exhibit itself!</p>
       <ul class="disc">
-        <li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-        <li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-        <li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
+        <li>Take a ride in our tornado simulator</li>
+        <li>"Sail" on a stormy sea</li>
+        <li>Learn about volcanoes</li>
+		and so much more!
       </ul>
     </div>
