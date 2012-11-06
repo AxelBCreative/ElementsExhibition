@@ -20,7 +20,20 @@ class Elements extends CI_Controller {
 	
 	public function earth()
 	{
-		$this->load->view('foundation/head');
+		$data = array(
+			'title' => 'Earth - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
+			'heading' => 'This is <strong>Earth!</strong>',
+			'element' => 'Earth',
+			'introparagraph' => 'Earth - our home and origin.',
+			'image_one' => '../assets/images/pics/crop.jpg',
+			'image_one_title' => 'This crop will provide food for a community',
+			'image_two' => '../assets/images/pics/miners.jpg',			
+			'image_two_title' => 'These miners risked life and limb for precious minerals',			
+			'image_three' => '../assets/images/pics/earthquake.jpg',			
+			'image_three_title' => 'The awesome power of tectonic plates unleashed',
+		);
+			
+		$this->load->view('foundation/head', $data);
 		$this->load->view('foundation/header');
 		$this->load->view('elements/earth');
 		$this->load->view('foundation/footer');
@@ -32,7 +45,7 @@ class Elements extends CI_Controller {
 			'title' => 'Water - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
 			'heading' => 'This is <strong>Water!</strong>',
 			'element' => 'Water',
-			'introparagraph' => '"Water is the driving force in nature", said da Vinci',
+			'introparagraph' => '"Water is the driving force in nature", said da Vinci.',
 			'image_one' => '../assets/images/pics/hydro-dam.jpg',
 			'image_one_title' => 'This hydroelectric power station provides electricity to thousands of people in Kyrgyz cities',
 			'image_two' => '../assets/images/pics/surfing.jpg',			

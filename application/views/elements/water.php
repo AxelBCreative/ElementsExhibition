@@ -60,7 +60,7 @@
 		<h4>Get your hose ready.</h4>
 		<p>
 		Our highly trained team of volunteer firefighters will be in twice a week - on Mondays and Thursdays - to give you a thrilling
-		firefighting experience with an authentic firehose.
+		firefighting experience with an authentic fire engine.
 		</p>
 		</li>
       </ul>

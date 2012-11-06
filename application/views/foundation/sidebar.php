@@ -14,7 +14,7 @@
       </ul>
 	  and so much more!
 	  <h4>Find the Hassad Museum of Science</h4>
-	  <iframe 
+	  <!--<iframe 
 		width="300" 
 		height="300" 
 		frameborder="0" 
@@ -22,6 +22,6 @@
 		marginheight="0" 
 		marginwidth="0" 
 		src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;aq=&amp;sll=53.762408,-0.331986&amp;sspn=0.122785,0.338173&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;t=m&amp;ll=51.50543,-0.129175&amp;spn=0.016027,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed">
-	  </iframe>
+	  </iframe>-->
 	  <h6>Near Charing Cross Station, London</h6>
     </div>
