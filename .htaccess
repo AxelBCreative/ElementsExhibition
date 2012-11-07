@@ -1,6 +1,12 @@
 DirectoryIndex index.php
+# Leave WP alone and remove index.php in urls
 RewriteEngine on
 RewriteCond $1 !^(index\.php|tenfootcity|images|css|js|robots\.txt|favicon\.ico)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ ./index.php/$1 [L,QSA] 
+RewriteRule ^(.*)$ ./index.php/$1 [L,QSA]
+
+# Force www except on localhost
+RewriteCond %{HTTP_HOST} !=localhost
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]

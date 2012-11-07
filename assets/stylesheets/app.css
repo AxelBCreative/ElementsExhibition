@@ -95,7 +95,7 @@ nav#elements{
 	}
 		nav#elements nav#main a {
 			margin: 0 10px 0 10px;
-		}
+		}		
 		
 footer {
 	font-size:12px;
@@ -131,4 +131,12 @@ a.get-your-invite {
 	background: #1e5799;
 	box-shadow: 1px 1px 1px #333;
 	border-radius: 5px;
+}
+
+input.shorturl {
+	display: inline;
+	width: 125px;
+	height: 20px;
+	position: relative;
+	top: 12px;
 }
