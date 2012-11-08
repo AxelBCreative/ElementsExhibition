@@ -49,7 +49,7 @@ class Elements extends CI_Controller {
 			'title' => 'Water - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
 			'heading' => 'This is <strong>Water!</strong>',
 			'element' => 'Water',
-			'introparagraph' => '"Water is the driving force in nature", said da Vinci.',
+			'introparagraph' => '"Water is the driving force in nature" - Leonardo da Vinci.',
 			'shorturl' => 'http://xzib.it/water',
 			'tweet' => 'Learn%20about%20the%20element%20water%20at%20the%20@ElementExhibit',			
 			'image_one' => '../assets/images/pics/hydro-dam.jpg',

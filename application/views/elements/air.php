@@ -2,7 +2,6 @@
     <div class="twelve columns">
       <h2><?php echo $heading; ?></h2>
       <p class="intro-paragraph"><?php echo $introparagraph; ?></p>
-      <hr />
     </div>
   </div>
 

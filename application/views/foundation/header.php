@@ -2,12 +2,10 @@
 
 <body <?php if(isset($element)) echo "class='".strtolower($element)."'";?>>
 <header>
-	<section class="logo row">
-		<span class="six columns">
-			<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/foundation/logo.png" alt="The Elements" /></a>
-		</span>
+	
+	<section class="logo row">		
+			<a class="three columns" href="<?php echo base_url(); ?>" title="The Elements Exhibition"><img id="logo" src="<?php echo base_url(); ?>assets/images/foundation/logo.png" alt="The Elements" title="The Elements Exhibition" /></a>
+			<?php $this->load->view('foundation/elements_navigation');	?>				
 	</section>
-
-<?php $this->load->view('foundation/elements_navigation');	?>
 
 </header>

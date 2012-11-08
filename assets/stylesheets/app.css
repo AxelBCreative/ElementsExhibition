@@ -1,104 +1,73 @@
-/* Artfully masterminded by ZURB  */
-
 /* -------------------------------------------------- 
    Table of Contents
 -----------------------------------------------------
-:: Fonts
 :: Shared Styles
 :: Home Page
 :: Page Name 2
 */
 
 /* -----------------------------------------
-   Fonts
------------------------------------------ */
-
-/* Adelle */
-
-@font-face {
-    font-family: 'Adelle Bold';
-    src: url('fonts/adelle/adelle_bold-webfont.eot');
-    src: url('fonts/adelle/adelle_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/adelle/adelle_bold-webfont.svg#adelle_rgbold') format('svg'),	
-         url('fonts/adelle/adelle_bold-webfont.woff') format('woff'),
-         url('fonts/adelle/adelle_bold-webfont.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Adelle Regular';
-    src: url('fonts/adelle/adelle_reg-webfont.eot');
-    src: url('fonts/adelle/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/adelle/adelle_reg-webfont.svg#adelle_rgregular') format('svg'),	
-         url('fonts/adelle/adelle_reg-webfont.woff') format('woff'),
-         url('fonts/adelle/adelle_reg-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Adelle Semibold';
-    src: url('fonts/adelle/adelle_semibold-webfont.eot');
-    src: url('fonts/adelle/adelle_semibold-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/adelle/adelle_semibold-webfont.svg#adelle_sbsemibold') format('svg'),	
-         url('fonts/adelle/adelle_semibold-webfont.woff') format('woff'),
-         url('fonts/adelle/adelle_semibold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
 body {
-	background: url('../images/foundation/background.jpg') repeat-x;
+	background: #20373f;
 	padding: 25px 0 25px 0;
+	color: #eeeeee;
+	font-family: "Open Sans" !important;
 }
+
+header {background: #0c1619; padding: 15px 0 0 0; margin-top: -25px;}
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Adelle Regular" !important; 
+	font-family: "Arvo" !important; 
+	color: #eeeeee;
+	font-weight: 100;
 }
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-	font-family: "Adelle Bold" !important;
+	font-family: "Arvo" !important;
 }
 
-a {color: #1e5799;}
+p {font-family: "Open Sans", Arial, sans-serif;}
+
+a {color: #eeeeee;}
+a:hover {color: #f8810d;}
 
 a img {border: none;} /* Stupid IE! */
 
+img#logo {margin-top: -5px;}
 
 nav#elements{ 
-	font-family: Arial, 'Source Sans Pro' !important; 
+	font-family: 'Open Sans', Arial, sans-serif !important; 
 	font-weight: 100;
 	text-transform: uppercase;
-	margin-top: 20px;
+	margin-top: 8px;
 	margin-bottom: 20px;
 }
-	nav#elements div a {
+	nav#elements a {
 		font-weight: 700;
 		font-size: 170%;
 		margin: 0 20px 0 0;
 	}
-		nav#elements a#earth {color: #622209;}
+		nav#elements a#earth {color: #ad3e13;}
 		nav#elements a#water {color: #64a8c2;}
 		nav#elements a#fire {color: #f1901f;}
 		nav#elements a#air {color: #a2a5a9;}		
 
-	nav#elements nav#main {
-		font-size:170%;
+	nav#main {
+		font-size:80%;
 		font-weight: 400;
-		text-transform: none !important;
+		text-transform: uppercase !important;
+		margin: 15px 0 0 0;
+		font-family: Verdana;
 	}
-		nav#elements nav#main a {
+		nav#main a {
 			margin: 0 10px 0 10px;
 		}		
 		
 footer {
 	font-size:12px;
+	background: #0c1619;
+	padding: 15px;
 }
 
 
@@ -106,31 +75,36 @@ footer {
    Home Page
 ----------------------------------------- */
 h1.welcome {font-weight: 100;}
-	h1.welcome strong {font-family: "Adelle Bold"; font-weight: 900;}
-h4.intro {margin: 15px 0 35px 0; font-family: Arial, sans-serif !important; font-weight: 400;}
+	h1.welcome strong {font-family: "Arvo";}
+h4.intro {margin: 15px 0 35px 0; font-family: "Open Sans", Arial, sans-serif !important; font-weight: 400;}
 	h4.intro strong {font-weight: 700;}
 
 
 
 /* -----------------------------------------
-   Elements Pages
+   Elements Pages & Sidebar
 ----------------------------------------- */
-h2 strong {font-family: "Adelle Bold";}
+h2 strong {font-family: "Arvo";}
 
 p.intro-paragraph {
 	font-size: 2em;
+	font-family: "Georgia";
+	font-style: italic;
+
 }
 
-a.get-your-invite {
-	display: block;
-	width: 200px;
+#sidebar h6, #sidebar h6 strong {font-family: "Open Sans" !important;}
+
+#sidebar a.get-your-invite {
+	display: block;	
 	font-size: 1.5em;
 	padding: 7px 5px 5px 10px;
 	color: #fff;
-	text-shadow: 1px 1px 0px #333;
-	background: #1e5799;
+	text-shadow: 1px 1px 0px #b55a02;
+	background: #f8810d;
 	box-shadow: 1px 1px 1px #333;
 	border-radius: 5px;
+	text-align: center;
 }
 
 input.shorturl {
@@ -140,3 +114,5 @@ input.shorturl {
 	position: relative;
 	top: 12px;
 }
+
+.orbit-wrapper {margin-left: -10px;}

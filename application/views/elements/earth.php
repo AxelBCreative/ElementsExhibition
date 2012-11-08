@@ -2,13 +2,13 @@
     <div class="twelve columns">
       <h2><?php echo $heading; ?></h2>
       <p class="intro-paragraph"><?php echo $introparagraph; ?></p>
-      <hr />
+	  
     </div>
   </div>
 
   <div class="row">
     <div class="eight columns">
-      <h3>How we use <?php echo $element; ?></h3>
+      
 
   
     <section class="twelve columns">
