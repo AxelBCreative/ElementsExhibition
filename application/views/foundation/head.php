@@ -1,4 +1,3 @@
-<?php $this->load->helper('url'); ?>
 <!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -11,6 +10,7 @@
 
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="<?php //echo $meta_description ?>" />
 
   <title><?php echo $title; ?></title>
   

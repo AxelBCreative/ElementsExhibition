@@ -7,6 +7,7 @@ class Elements extends CI_Controller {
 	{
 		$data = array(
 			'title' => 'The Elements | Earth, Water, Fire, Air - Hassad Museum of Science, London',
+			'meta_description' => 'Explore one of the four elements - Earth, Water, Fire or Air',
 			'heading' => 'The Elements',
 			'copy' => 'Blah blah blah'
 		);
@@ -22,6 +23,7 @@ class Elements extends CI_Controller {
 	{
 		$data = array(
 			'title' => 'Earth - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
+			'meta_description' => 'Explore the Earth element at the Elements Exhibition',			
 			'heading' => 'This is <strong>Earth!</strong>',
 			'element' => 'Earth',
 			'introparagraph' => 'Earth - our home and origin.',

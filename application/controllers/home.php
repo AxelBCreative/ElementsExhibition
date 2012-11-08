@@ -2,12 +2,12 @@
 
 class Home extends CI_Controller {
 
-
 	public function index()
 	{
 		//$this->load->model('home_data');
 		$data = array(
 		'title' => 'The Elements Exhibition | Earth, Water, Fire, Air - Hassad Museum of Science, London',
+		'meta_description' => 'The Hassad Museum of Science is famous for its world-renowned exhibitions, and now we invite you to explore the elements.',
 		'heading' => '<h1 class="welcome">Welcome to the <strong>Hassad Museum of Science</strong></h1>',
 		'inviteimage' => 'assets/images/foundation/got_your_invite.png',
 		'copy' => '<h4 class="intro">The Hassad Museum of Science is famous for its world-renowned exhibits, and now
