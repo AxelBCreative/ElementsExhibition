@@ -1,11 +1,10 @@
-  <?php $this->load->helper('url'); ?>
   <footer class="row">
 			<span class="six columns hide-for-small">
-				<a href="http://www.elementsexhibition.co.uk">Home</a> | <a href="about">About</a> | <a href="privacy">Privacy Policy</a>
+				<a href="<?php echo base_url(); ?>">Home</a> | <a href="blog">Blog</a> | <a href="privacy">Privacy Policy</a>
 			</span>
 		
 			<span class="six columns text-right">
-				&copy; Copyright <?php echo date('Y'); ?> <a href="http://www.elementsexhibition.co.uk">The Hassad Museum of Science</a>
+				&copy; Copyright <?php echo date('Y'); ?> <a href="<?php echo base_url();?>">The Hassad Museum of Science</a>
 			</span>		
 			
   </footer>

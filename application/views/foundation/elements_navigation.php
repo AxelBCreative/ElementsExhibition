@@ -8,5 +8,5 @@
 	<nav class="four columns hide-for-small" id="main">
 		<a href="<?php echo base_url();?>">Home</a>
 		<a href="<?php echo base_url();?>about">About</a>
-		<a href="<?php echo base_url();?>vip/invite">Get Invited</a>
+		<a href="<?php echo base_url();?>vip">Get Invited</a>
 	</nav>

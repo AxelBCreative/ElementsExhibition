@@ -47,6 +47,7 @@ class Elements extends CI_Controller {
 	{
 		$data = array(
 			'title' => 'Water - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
+			'meta_description' => 'Explore the Water element at the Elements Exhibition',						
 			'heading' => 'This is <strong>Water!</strong>',
 			'element' => 'Water',
 			'introparagraph' => '"Water is the driving force in nature" - Leonardo da Vinci.',
@@ -70,6 +71,7 @@ class Elements extends CI_Controller {
 	{
 		$data = array(
 			'title' => 'Fire - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
+			'meta_description' => 'Explore the Fire element at the Elements Exhibition',						
 			'heading' => 'This is <strong>Fire!</strong>',
 			'element' => 'Fire',
 			'introparagraph' => 'Fire has been used by humans for millennia - from keeping us warm to keeping us fed.',
@@ -93,6 +95,7 @@ class Elements extends CI_Controller {
 	{
 		$data = array(
 			'title' => 'Air - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
+			'meta_description' => 'Explore the Air element at the Elements Exhibition',						
 			'heading' => 'This is <strong>Air!</strong>',
 			'element' => 'Air',
 			'introparagraph' => 'We have made use of air for centuries - from sailing ships to powering wind turbines.',

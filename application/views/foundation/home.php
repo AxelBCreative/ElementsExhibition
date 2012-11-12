@@ -8,11 +8,11 @@
 		<section class="twelve columns">
 					<div class="row">
 						<div class="five columns">
-							<a href="vip/invite"><img src="<?php echo $inviteimage; ?>" /></a>
+							<!--<a href="vip/invite"><img src="<?php echo $inviteimage; ?>" /></a>-->
 						</div>
 					</div>				
 				<div class="row">
-					<article class="intro-message twelve columns hide-for-small">
+					<article class="intro-message six columns hide-for-small">
 						<?php echo $copy; ?>
 					</article>
 				</div>

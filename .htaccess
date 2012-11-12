@@ -8,5 +8,6 @@ RewriteRule ^(.*)$ ./index.php/$1 [L,QSA]
 
 # Force www except on localhost
 RewriteCond %{HTTP_HOST} !=localhost
+RewriteCond %{HTTP_HOST} !=192.168.1.66
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
