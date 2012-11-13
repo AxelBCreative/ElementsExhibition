@@ -1,0 +1,330 @@
+@charset "utf-8";
+/*SITE WIDE REDEFINED TAGS*/
+
+body {
+	background-color:#000;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#CCC;
+	margin:0px;
+	padding:0px;
+}
+a {
+	text-decoration:none;
+	color: #000;
+}
+h1 {
+	font-size: 40px;
+	font-weight: normal;
+	padding:0px;
+	margin:0px;
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin:0px;
+	padding:0px;
+	font: verdana;
+	color: #000;
+}
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin:0px;
+	padding:0px;
+}
+/* COMMONLY USED STANDARD CSS NAVIGATION ELEMENTS W3 SCHOOLS */
+
+
+ul#navlist {
+	float:left;
+	padding: 0px;
+	white-space: nowrap;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 960px;
+	background-color: #6A8E9C;
+	height: 20px;
+}
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	font-size:20px;
+	padding-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#navlist a {
+	padding-right: 50px;
+	padding-bottom: 2px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#navlist a:visited {
+	background-color: #6A8E9C;
+	color: #BADAD9;
+}
+#navlist a:link {
+	background-color:#6A8E9C;
+	color: #BADAD9;
+}
+#navlist a:hover {
+	color: #000;
+	background-color: #6A8E9C;
+}
+/* IDENTIFIES WHICH PAGE IS CURRENT IN THE NAVIGATION ELEMENTS */
+
+body#home a#homenav, body#admin a#adminnav, body#logout a#logoutnav, body#posts a#postsnav, body#cats a#catssnav, body#addposts a#addpostsnav {
+	color: #FFF;
+	background-color: #6A8E9C;
+}
+/* MAIN CONTAINER COMMONLY KNOW AS A WRAPPER */
+
+#outerContainer {
+	width:960px;
+	height:auto;
+	padding:0px;
+	display: block;
+	background-color: #6A8E9C;
+	color: #324751;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+/* HEADER STYLING */
+
+#header {
+	float:left;
+	height:150px;
+	width:960px;
+	color: #475356;
+	background-image: url(../images/fender-02.jpg);
+}
+/* NAVIGATION FUCTIONALITY AND STYLING */
+
+#navigation {
+	float:left;
+	width:960px;
+	height:30px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #6A8E9C;
+	padding-top: 10px;
+}
+/* VARIOUSE CONTAINERS FOR TEXT ANB PICS */
+
+
+.content {
+	height: auto;
+	width: 960px;
+	background-color: #F0F0F0;
+	color: #000;
+	position: relative;
+	float: left;
+	min-height: 600px;
+}
+.loginContainer {
+	height: 140px;
+	width: 300px;
+	margin-top: 100px;
+	margin-right: auto;
+	background-color: #A8BCC5;
+	padding: 10px;
+	margin-left: auto;
+}
+.loginButton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+input[type=text], input[type=password], textarea {
+	width: 150px;
+}
+input[type=submit], button {
+	width: 60px;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+.username {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 17px;
+	margin-top: 20px;
+	width: 250px;
+	float: left;
+	color: #000;
+}
+.password {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 250px;
+	float: left;
+	color: #000;
+}
+#loggedinText {
+	height: 50px;
+	width: 500px;
+	background-color: #BADAD9;
+	color: #000;
+	margin-top: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+	margin-left: auto;
+	max-width: 500px;
+	margin-right: auto;
+	text-align: center;
+}
+
+.manageSelectContainer {
+	height: 300px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.labelContainer {
+	height: 30px;
+	width: 800px;
+	margin-top: 50px;
+	margin-left: auto;
+	background-color: #B3C7D0;
+	margin-right: auto;
+	border-bottom-color: #6A8E9C;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	}
+
+.titleLabelContainer {
+	height: auto;
+	width: 200px;
+	background-color: #B3C7D0;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	font-weight: bold;
+	color: #000;
+}
+
+.authorLabelContainer {
+	width: 200px;
+	background-color: #B3C7D0;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	float: left;
+	font-weight: bold;
+	color: #000;
+}
+
+.editGraphicContainer{
+	background-image: url(../images/edit.png);
+	float: left;
+	height: 24px;
+	width: 150px;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+	margin-top: 2px;
+	}
+
+.deleteGraphicContainer{
+	background-image: url(../images/delete.png);
+	float: left;
+	height: 20px;
+	width: 100px;
+	background-repeat: no-repeat;
+	margin-left: 15px;
+	margin-top: 5px;
+	}
+
+
+
+.titleContainer {
+	height: auto;
+	width: 200px;
+	background-color: #BADAD9;
+	display: block;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #6A8E9C;
+	border-bottom-style: solid;
+}
+.authorContainer {
+	width: 200px;
+	background-color: #BADAD9;
+	height: auto;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #6A8E9C;
+	border-bottom-style: solid;
+}
+.deleteContainer {
+	height: auto;
+	width: 180px;
+	background-color: #BADAD9;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #6A8E9C;
+	border-bottom-style: solid;
+}
+.editContainer {
+	height: auto;
+	width: 180px;
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	background-color: #BADAD9;
+	border-bottom-width: 1px;
+	border-bottom-color: #6A8E9C;
+	border-bottom-style: solid;
+}
+
+.addpostContainer{
+	width: 800px;
+	height: auto;
+	background-color: #B0C8D2;
+}
+
+
+
+.pic-02 {
+	height: 160px;
+	width: 160px;
+	margin-top: 25px;
+	margin-left: 140px;
+	background-repeat: no-repeat;
+	float: left;
+	background-image: url(../pics/pics-guitar-strings/ernie-ball-01.jpg);
+}
+.pic-01 {
+	height: 500px;
+	width: 400px;
+	background-color: #A7B6BB;
+	color: #324751;
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-bottom: 0px;
+	background-image: url(../pics/frank-zappa.jpg);
+}

@@ -10,7 +10,7 @@
    Shared Styles
 ----------------------------------------- */
 body {
-	background: url('../images/foundation/background.png') repeat-x #003366;
+	background: url('../images/foundation/background.png') #01080f;
 	padding: 25px 0 25px 0;
 	color: #eeeeee;
 	font-family: "Open Sans" !important;
@@ -18,7 +18,7 @@ body {
 }
 
 header#main {
-	background: #0c1619; 
+	background: url('../images/foundation/header_bg.png'); 
 	padding: 15px 0 0 0;
 	margin: -25px 0 15px 0;
 	box-shadow: -1px 1px 5px #000;

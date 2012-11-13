@@ -1,0 +1,194 @@
+ @charset "utf-8";
+/*SITE WIDE REDEFINED TAGS*/
+
+body {
+	background-color:#000;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#CCC;
+	margin:0px;
+	padding:0px;
+}
+a {
+	text-decoration:none;
+}
+h1 {
+	font-size: 40px;
+	font-weight: normal;
+	letter-spacing: -4px;
+	padding:0px;
+	margin:0px;
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin:0px;
+	padding:0px;
+	font: verdana;
+	color: #000;
+}
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin:0px;
+	padding:0px;
+}
+/* COMMONLY USED STANDARD CSS NAVIGATION ELEMENTS W3 SCHOOLS */
+
+
+ul#navlist {
+	float:left;
+	padding: 0px;
+	white-space: nowrap;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 960px;
+	background-color: #6A8E9C;
+	height: 20px;
+}
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	font-size:20px;
+	padding-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#navlist a {
+	padding-right: 120px;
+	padding-bottom: 2px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#navlist a:visited {
+	background-color: #6A8E9C;
+	color: #BADAD9;
+}
+#navlist a:link {
+	background-color:#6A8E9C;
+	color: #BADAD9;
+}
+#navlist a:hover {
+	color: #000;
+	background-color: #6A8E9C;
+}
+/* IDENTIFIES WHICH PAGE IS CURRENT IN THE NAVIGATION ELEMENTS */
+
+body#home a#homenav, body#admin a#adminnav {
+	color: #FFF;
+	background-color: #6A8E9C;
+}
+/* MAIN CONTAINER COMMONLY KNOW AS A WRAPPER */
+
+#outerContainer {
+	width:960px;
+	height:auto;
+	padding:0px;
+	display: block;
+	background-color: #6A8E9C;
+	color: #324751;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+/* HEADER STYLING */
+
+#header {
+	float:left;
+	height:150px;
+	width:960px;
+	color: #475356;
+	background-image: url(../images/fender-02.jpg);
+}
+/* NAVIGATION FUCTIONALITY AND STYLING */
+
+#navigation {
+	float:left;
+	width:960px;
+	height:30px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #6A8E9C;
+	padding-top: 10px;
+}
+/* VARIOUSE CONTAINERS FOR TEXT ANB PICS */
+
+
+.content {
+	height: auto;
+	width: 960px;
+	background-color: #F0F0F0;
+	color: #324751;
+	position: relative;
+	float: left;
+	min-height: 600px;
+	margin-bottom: 20px;
+}
+.left-content {
+	height: auto;
+	width: 500px;
+	float: left;
+}
+.right-content {
+	height: 500px;
+	width: 400px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.text-01 {
+	width: 480px;
+	height: auto;
+	background-color: #F0F0F0;
+	display: block;
+	color: #000;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	font-size: 14px;
+	padding-left: 0px;
+	text-align: justify;
+	font-style: normal;
+	line-height: 20px;
+}
+.text-02 {
+	width: 480px;
+	height: auto;
+	background-color: #F0F0F0;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 0px;
+	font-size: 14px;
+	padding-left: 0px;
+	text-align: justify;
+	display: block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+	line-height: 20px;
+}
+.pic-01 {
+	height: 500px;
+	width: 400px;
+	background-color: #A7B6BB;
+	color: #324751;
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-bottom: 0px;
+	background-image: url(../pics/frank-zappa.jpg);
+}
+.pic-02 {
+	height: 160px;
+	width: 160px;
+	margin-top: 25px;
+	margin-left: 140px;
+	background-repeat: no-repeat;
+	float: left;
+	background-image: url(../pics/pics-guitar-strings/ernie-ball-01.jpg);
+}
