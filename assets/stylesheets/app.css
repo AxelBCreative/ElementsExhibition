@@ -21,6 +21,7 @@ header#main {
 	background: url('../images/foundation/header_bg.png'); 
 	padding: 15px 0 0 0;
 	margin: -25px 0 15px 0;
+	border-radius: 0 0 10px 10px;
 	box-shadow: -1px 1px 5px #000;
 }
 
@@ -45,10 +46,12 @@ a img {border: none;} /* Stupid IE! */
 
 .highlight {
 	background: #f8810d;
-	text-shadow: 1px 1px 0px #af5e0f;
+	text-shadow: 2px 1px 2px #96510e;
+	margin: 5px 0 0 0;
 	padding: 5px 5px 5px 10px;
 	box-shadow: -1px 1px 5px #000;
 	display: inline-block;
+	border-radius: 2px 10px 2px 10px;
 }
 
 img#logo {margin-top: -5px;}
@@ -62,20 +65,23 @@ nav#elements{
 }
 	nav#elements a {
 		font-weight: 700;
-		font-size: 170%;
+		font-size: 1.7em;
 		margin: 0 20px 0 0;
 	}
+	@media only screen and (max-width: 1024px) {nav#elements a {font-size: 1.45em;}}
+	@media only screen and (max-width: 320px) {nav#elements a {font-size: 1.2em;}}	
+	
 		nav#elements a#earth {color: #ad3e13;}
 		nav#elements a#water {color: #64a8c2;}
 		nav#elements a#fire {color: #f1901f;}
 		nav#elements a#air {color: #a2a5a9;}		
 
 	nav#main {
-		font-size:80%;
+		font-size: .8em;
 		font-weight: 400;
 		text-transform: uppercase !important;
 		margin: 15px 0 0 0;
-		font-family: Verdana;
+		
 	}
 		nav#main a {
 			margin: 0 10px 0 10px;
@@ -86,6 +92,8 @@ footer {
 	background: #0c1619;
 	padding: 15px;
 	box-shadow: -1px 1px 5px #000;
+	border-radius: 0px 0px 10px 10px;
+	background: url('../images/foundation/header_bg.png'); 	
 }
 
 

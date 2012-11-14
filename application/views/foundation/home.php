@@ -12,7 +12,7 @@
 						</div>
 					</div>				
 				<div class="row">
-					<article class="intro-message six columns hide-for-small">
+					<article class="intro-message six columns">
 						<?php echo $copy; ?>
 					</article>
 				</div>
