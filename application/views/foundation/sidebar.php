@@ -2,6 +2,7 @@
 	
 	<a href="https://twitter.com/share?text=<?php echo $tweet.'&url='.$shorturl; ?>" class="twitter-share-button" data-lang="en">Tweet</a>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <a href="https://plus.google.com/111853846959134453166">G+</a>
 	<input type="text" value="<?php echo $shorturl ;?>" class="shorturl" />
 	
       <h4>Come to the Exhibition!</h4>

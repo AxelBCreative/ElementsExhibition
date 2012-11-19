@@ -1,4 +1,4 @@
-	<nav class="four columns" id="elements">
+	<nav class="five columns" id="elements">
 			<a href="<?php echo base_url();?>elements/earth" id="earth">Earth</a>
 			<a href="<?php echo base_url();?>elements/water" id="water">Water</a>
 			<a href="<?php echo base_url();?>elements/fire" id="fire">Fire</a>

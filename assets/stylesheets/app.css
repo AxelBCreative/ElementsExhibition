@@ -10,7 +10,7 @@
    Shared Styles
 ----------------------------------------- */
 body {
-	background: url('../images/foundation/background.png') #01080f;
+	background: #023059 url('../images/foundation/background.png');
 	padding: 25px 0 25px 0;
 	color: #eeeeee;
 	font-family: "Open Sans" !important;
@@ -18,10 +18,9 @@ body {
 }
 
 header#main {
-	background: url('../images/foundation/header_bg.png'); 
+	background: #012840 url('../images/foundation/header_bg.png');
 	padding: 15px 0 0 0;
 	margin: -25px 0 15px 0;
-	border-radius: 0 0 10px 10px;
 	box-shadow: -1px 1px 5px #000;
 }
 
@@ -92,8 +91,8 @@ footer {
 	background: #0c1619;
 	padding: 15px;
 	box-shadow: -1px 1px 5px #000;
-	border-radius: 0px 0px 10px 10px;
-	background: url('../images/foundation/header_bg.png'); 	
+	border-radius: 0px 0px 5px 5px;
+	background: #012840 url('../images/foundation/header_bg.png');
 }
 
 
