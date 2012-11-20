@@ -9,3 +9,4 @@
 	</section>
 
 </header>
+<a href="<?php echo base_url(); ?>vip" class="show-for-small get-your-invite" title="Win a free VIP invite to the Elements Exhibition"><i class="icon-credit-card"></i> Get your invite!</a>
