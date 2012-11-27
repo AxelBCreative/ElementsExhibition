@@ -17,6 +17,8 @@ body {
 	text-shadow: -2px 1px 0px #012840;
 }
 
+p {font-size: 12px;}
+
 header#main {
 	background: #012840 url('../images/foundation/header_bg.png');
 	padding: 15px 0 0 0;
@@ -31,10 +33,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
 	font-family: "Arvo" !important;
-	color: #fff;
 }
 
-p {font-family: "Open Sans", Arial, sans-serif;}
+li, p {font-family: "Open Sans", Arial, sans-serif !important; font-size:12px}
+
+ul .none {list-style-type: none !important;}
+
+span .list-box {background-color:#f8810d;}
 
 a {color: #eeeeee;}
 a:hover {color: #f8810d;}
@@ -112,8 +117,10 @@ h4.intro {margin: 15px 0 35px 0; font-family: "Open Sans", Arial, sans-serif !im
 ----------------------------------------- */
 h2 strong {font-family: "Arvo";}
 
+h3, h4 {font-size:18px;}
+
 p.intro-paragraph {
-	font-size: 2em;
+	font-size: 1.75em;
 	font-family: "Georgia";
 	font-style: italic;
 	margin-left: -10px;
@@ -122,7 +129,11 @@ p.intro-paragraph {
 
 /*#sidebar {top: -110px;}*/
 
+.orange {color: #f8810d;}
+
 #sidebar h6, #sidebar h6 strong {font-family: "Open Sans" !important;}
+
+.tab-head, ul.tabs-content h4 {font-family: "Open Sans" !important; font-weight: bold;}
 
 a.get-your-invite {
 	display: block;	
@@ -131,19 +142,13 @@ a.get-your-invite {
 	color: #fff;
 	text-shadow: 1px 1px 0px #b55a02;
 	background: #f8810d url('../images/foundation/action.png') repeat-x;
-	box-shadow: 1px 1px 1px #333;
 	border-radius: 5px;
 	text-align: center;
-	box-shadow: 0px 5px 0px #ba6008;
 }
 	a.get-your-invite:hover {
 		background: #f8810d;
 	}
-	.get-your-invite:active {
-		box-shadow: 0px 2px 0px #ba6008;
-		position: relative;
-		top: 3px;
-	}
+
 
 input.shorturl {
 	display: inline;
@@ -153,4 +158,16 @@ input.shorturl {
 	top: 12px;
 }
 
-.orbit-wrapper {margin-left: -10px;}
+.orbit-wrapper {margin: 10px 0 0 -10px;}
+
+/* -----------------------------------------
+   Helper Styles
+----------------------------------------- */
+
+.block {display: block;}
+
+.main-nav {text-align: right;}
+
+.social {margin: 10px 0 10px 0; display: block;}
+	.social .twitter {display: inline-block; width: 80px; }
+	.social .gplus {display: inline-block; width: 60px;}

@@ -5,7 +5,7 @@
 			<a href="<?php echo base_url();?>elements/air" id="air">Air</a>
 	</nav>
 	
-	<nav class="four columns hide-for-small" id="main">
+	<nav class="four columns hide-for-small main-nav" id="main">
 		<a href="<?php echo base_url();?>">Home</a>
 		<a href="<?php echo base_url();?>about">About</a>
 		<a href="<?php echo base_url();?>vip">Get Invited</a>

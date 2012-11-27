@@ -1,6 +1,6 @@
   <div class="row">
     <div class="twelve columns">
-      <h2><?php echo $heading; ?></h2>
+      <h2 class="highlight block"><?php echo $heading; ?></h2>
       <p class="intro-paragraph eight columns"><?php echo $introparagraph; ?></p>
     </div>
   </div>
@@ -18,21 +18,21 @@
  
       <div class="row">
         <div class="six columns">
-			<h3>For Power</h3>
+			<h3 class="tab-head">For Power</h3>
 				<p>Hydroelectricity is a fairly recent form of power, with the first hydroelectric plant operating in 1882.</p>
 				<p>
 				The largest hydroelectric dam &ndash; the <a href="http://en.wikipedia.org/wiki/Three_Gorges_Dam">Three Gorges Dam</a> in China &ndash;  has an output of 22.5 <strong>gigawatts</strong>!
 				</p>
         </div>
         <div class="six columns">
-			<h3>For Fun</h3>
+			<h3 class="tab-head">For Fun</h3>
 				<p>Surf's up! From surfing to bodyboarding and sailing to swimming, water sports are some of the most popular in the world.</p>
 				<p>Did we mention we also have our own swimming pool?</p>
         </div>
       </div>
       
       
-      <h3>At the Museum</h3>
+      <h3 class="tab-head">At the Museum</h3>
       <dl class="tabs">
         <dd class="active"><a href="#pool">Swimming Pool</a></dd>
         <dd><a href="#rainsim">Rain Simulator</a></dd>

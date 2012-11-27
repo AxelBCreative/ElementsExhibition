@@ -1,6 +1,6 @@
   <div class="row">
     <div class="twelve columns">
-      <h2><?php echo $heading; ?></h2>
+      <h2 class="highlight block"><?php echo $heading; ?></h2>
       <p class="intro-paragraph eight columns"><?php echo $introparagraph; ?></p>
     </div>
   </div>
@@ -18,14 +18,14 @@
  
       <div class="row">
         <div class="six columns">
-			<h3>For Power</h3>
+			<h3 class="tab-head">For Power</h3>
 				<p>
 				We have used fire for generating electricity for hundreds of years, and we're not going to stop any time soon.
 				Even your car will quite likely use a combustion engine to make it go.
 				</p>
         </div>
         <div class="six columns">
-			<h3>For Fun</h3>
+			<h3 class="tab-head">For Fun</h3>
 				<p>
 				Remember, remember, the 5th of November... we all know what that means: fireworks!
 				Fire-breathers are also a sight to behold - and you can try it yourself at the Elements Exhibition!
@@ -34,7 +34,7 @@
       </div>
       
       
-      <h3>At the Museum</h3>
+      <h3 class="tab-head">At the Museum</h3>
       <dl class="tabs">
         <dd class="active"><a href="#fireworks">Fireworks Display</a></dd>
         <dd><a href="#cookoff">Cook-Off</a></dd>

@@ -1,6 +1,6 @@
   <div class="row">
     <div class="twelve columns">
-      <h2><?php echo $heading; ?></h2>
+      <h2 class="highlight block"><?php echo $heading; ?></h2>
       <p class="intro-paragraph eight columns"><?php echo $introparagraph; ?></p>
     </div>
   </div>
@@ -17,7 +17,7 @@
  
       <div class="row">
         <div class="six columns">
-			<h3>For Power</h3>
+			<h3 class="tab-head">For Power</h3>
 				<p>
 				Wind turbine power is our cleanest and safest form of energy. Full stop. 
 				The <a href="http://en.wikipedia.org/wiki/London_Array" target="blank">London Array</a> is
@@ -26,7 +26,7 @@
 				</p>
         </div>
         <div class="six columns">
-			<h3>For Fun</h3>
+			<h3 class="tab-head">For Fun</h3>
 				<p>
 				Sailing and Hot Air Ballooning are just two of the fun past times that require air and wind for the enjoyment.
 				One of these sports is also one you can experience at the Elements Exhibition... but we're not telling you which!
@@ -35,7 +35,7 @@
       </div>
       
       
-      <h3>At the Museum</h3>
+      <h3 class="tab-head">At the Museum</h3>
       <dl class="tabs">
         <dd class="active"><a href="#hurricane">Hurricane Simulator</a></dd>
         <dd><a href="#ballooning">Hot Air Ballooning</a></dd>
