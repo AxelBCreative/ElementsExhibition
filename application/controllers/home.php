@@ -9,7 +9,7 @@ class Home extends CI_Controller {
 		'title' => 'The Elements Exhibition | Earth, Water, Fire, Air - Hassad Museum of Science, London',
 		'meta_description' => 'The Hassad Museum of Science is famous for its world-renowned exhibitions, and now we invite you to explore the elements exhibition.',
 		'heading' => '<h1 class="welcome">Welcome to the <strong>Elements Exhibition</strong></h1>',
-		'inviteimage' => 'assets/images/foundation/got_your_invite.png',
+		'inviteimage' => 'assets/images/foundation/got_your_invite.jpg',
 		'copy' => '<h4 class="intro">The Hassad Museum of Science is famous for its world-renowned exhibits, and now
 						we invite you to explore the <strong class=""><em>Elements Exhibition.</em></strong></h4>
 						<h4 class="intro">Inspired by <strong><em>Hellenic alchemy</em></strong> (that\'s Ancient Greek - you\'re

@@ -1,18 +1,11 @@
   <div class="row">
-    <div class="twelve columns">
-      <h2 class="highlight block"><?php echo $heading; ?></h2>
-      <p class="intro-paragraph eight columns"><?php echo $introparagraph; ?></p>
-    </div>
-  </div>
-
-  <div class="row">
     <div class="eight columns">
   
     <section class="twelve columns">
       <div id="featured">
+        <img src="<?php echo $image_three; ?>" alt="<?php echo $image_three_title; ?>" title="<?php echo $image_three_title; ?> - Learn at the Elements Exhibition">	  
         <img src="<?php echo $image_one; ?>" alt="<?php echo $image_one_title; ?>" title="<?php echo $image_one_title; ?> - Learn at the Elements Exhibition">
         <img src="<?php echo $image_two; ?>" alt="<?php echo $image_two_title; ?>" title="<?php echo $image_two_title; ?> - Learn at the Elements Exhibition">
-        <img src="<?php echo $image_three; ?>" alt="<?php echo $image_three_title; ?>" title="<?php echo $image_three_title; ?> - Learn at the Elements Exhibition">
 	  </div>
 	</section>
  
