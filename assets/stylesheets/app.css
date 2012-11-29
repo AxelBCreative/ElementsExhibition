@@ -110,6 +110,11 @@ h1.welcome {
 h4.intro {margin: 15px 0 35px 0; font-family: "Open Sans", Arial, sans-serif !important; font-weight: 400;}
 	h4.intro strong {font-weight: 700; font-family: "Open Sans", Arial, sans-serif !important;}
 
+img.home-image {
+	margin: 5px; 
+	float:right;
+	border: 5px solid #012840;
+	}
 
 
 /* -----------------------------------------

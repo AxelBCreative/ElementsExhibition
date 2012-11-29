@@ -9,6 +9,6 @@
 						<?php echo $copy; ?>
 					</article>
 					<article class="six columns">
-						<img src="<?php echo $inviteimage; ?>" />
+						<img src="<?php echo $inviteimage; ?>" class="home-image" alt="Got your invite?" title="Have you got your invite to the Elements Exhibition?" />
 					</article>					
 	</section><!--.row-->
