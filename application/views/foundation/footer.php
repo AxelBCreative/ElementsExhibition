@@ -1,7 +1,8 @@
   <footer class="row">
 			<span class="six columns hide-for-small">
 				<a href="<?php echo base_url(); ?>">Home</a> | <a href="blog">Blog</a> | <a href="privacy">Privacy Policy</a>
-				<span class="social">
+				&nbsp;
+				<span class="social social-footer">
 					<g:plusone size="medium"></g:plusone>
 					<a href="https://twitter.com/share?text='Check out the Elements Exhibition at the Hassad Museum of Science! <?php if (isset($shorturl)){echo $shorturl;}else echo 'http://xzib.it';?>'" class="twitter-share-button" data-lang="en">Tweet</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>										

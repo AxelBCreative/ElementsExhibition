@@ -49,13 +49,13 @@ a img {border: none;} /* Stupid IE! */
 .br {display: block;}
 
 .highlight {
-	background: #f8810d;
+	background: none /*#f8810d*/;
 	text-shadow: none;
-	margin: 5px 0 0 0;
+	margin: 5px 0 0 -5px;
 	padding: 5px 10px 5px 10px;
-	box-shadow: -1px 1px 5px #012840;
+	/*box-shadow: -1px 1px 5px #012840;*/
 	display: inline-block;
-	border-radius: 2px 10px 2px 10px;
+	/*border-radius: 2px 10px 2px 10px;*/
 }
 
 img#logo {margin-top: -5px;}
@@ -173,6 +173,8 @@ input.shorturl {
 
 .main-nav {text-align: right;}
 
-.social {margin: 10px 0 10px 0; display: block;}
+.social {margin: 10px 0 10px 0; display: inline-block;}
 	.social .twitter {display: inline-block; width: 80px; }
 	.social .gplus {display: inline-block; width: 60px;}
+	
+	.social {position: relative; top: 5px;}
