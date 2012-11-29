@@ -9,7 +9,7 @@
 				</span>
 			</span>
 		
-			<span class="six columns text-right">
+			<span class="six columns text-right copyright">
 				&copy; Copyright <?php echo date('Y'); ?> <a href="<?php echo base_url();?>">The Hassad Museum of Science</a>
 			</span>		
 			

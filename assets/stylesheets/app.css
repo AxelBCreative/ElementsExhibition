@@ -93,12 +93,13 @@ nav#elements{
 		
 footer {
 	font-size:12px;
-	padding: 15px;
-	box-shadow: -1px -1px 2px #012840, 1px 1px 2px #012840;
+	padding: 15px 15px 15px 0;
+	/*box-shadow: -1px -1px 2px #012840, 1px 1px 2px #012840;
 	background: #023059;
-	border: 2px solid #012840;
+	border: 2px solid #012840;*/
 }
 
+footer .copyright {position: relative; top: 20px;}
 
 /* -----------------------------------------
    Home Page
