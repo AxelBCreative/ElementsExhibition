@@ -29,7 +29,7 @@
       </div>
       
       
-      <h3 class="tab-head">At the Museum</h3>
+      <?php /*<h3 class="tab-head">At the Museum</h3>
       <dl class="tabs">
         <dd class="active"><a href="#caving">Caving</a></dd>
         <dd><a href="#quakesim">Earthquake Simulator</a></dd>
@@ -57,7 +57,7 @@
 		<p>If you've got a patch of land - or even a whole farm! - you can take advantage of our crop growing room.</p>
 		<p>Choose from a variety of seeds and vegetables to take home and start your own self-sustaining garden.</p>
 		</li>
-      </ul>
+      </ul>*/?>
       
       
      

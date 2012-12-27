@@ -27,7 +27,7 @@
       </div>
       
       
-      <h3 class="tab-head">At the Museum</h3>
+      <?php /*<h3 class="tab-head">At the Museum</h3>
       <dl class="tabs">
         <dd class="active"><a href="#fireworks">Fireworks Display</a></dd>
         <dd><a href="#cookoff">Cook-Off</a></dd>
@@ -54,7 +54,7 @@
 		</p>
 		<p>Still, that isn't to say you can't benefit from our fire safety tips. Be sure to attend the seminar!</p>
 		</li>
-      </ul>
+      </ul>*/?>
       
       
      

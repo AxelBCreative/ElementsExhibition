@@ -28,7 +28,7 @@
       </div>
       
       
-      <h3 class="tab-head">At the Museum</h3>
+      <?php /*<h3 class="tab-head">At the Museum</h3>
       <dl class="tabs">
         <dd class="active"><a href="#hurricane">Hurricane Simulator</a></dd>
         <dd><a href="#ballooning">Hot Air Ballooning</a></dd>
@@ -52,7 +52,7 @@
 		<p>With all the other fun and exciting stuff that happens with air, you could be forgiven for doing so.</p>
 		<p>The Hassad Museum of Science also has a special feature dedicated to human respiration which can't be missed.</p>
 		</li>
-      </ul>
+      </ul>*/?>
       
 
     </div>

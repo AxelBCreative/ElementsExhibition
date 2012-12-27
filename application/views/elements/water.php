@@ -25,7 +25,7 @@
       </div>
       
       
-      <h3 class="tab-head">At the Museum</h3>
+      <?php /*<h3 class="tab-head">At the Museum</h3>
       <dl class="tabs">
         <dd class="active"><a href="#pool">Swimming Pool</a></dd>
         <dd><a href="#rainsim">Rain Simulator</a></dd>
@@ -53,7 +53,7 @@
 		firefighting experience with an authentic fire engine.
 		</p>
 		</li>
-      </ul>
+      </ul>*/?>
       
       
      

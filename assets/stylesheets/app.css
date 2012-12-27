@@ -1,4 +1,5 @@
 /* -------------------------------------------------- 
+/* -------------------------------------------------- 
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
@@ -10,11 +11,11 @@
    Shared Styles
 ----------------------------------------- */
 body {
-	background: #023059 url('../images/foundation/background.png');
+	background: url(../images/foundation/background.jpg);
 	padding: 25px 0 25px 0;
-	color: #eeeeee;
+	color: #2B3A42;
 	font-family: "Open Sans" !important;
-	text-shadow: -2px 1px 0px #012840;
+	/*text-shadow: -2px 1px 0px #012840;*/
 }
 
 p {font-size: 12px;}
@@ -27,12 +28,12 @@ header#main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Arvo" !important; 
-	color: #eeeeee;
+	font-family: "Open Sans" !important; 
+	color: #2B3A42;
 	font-weight: 100;
 }
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-	font-family: "Arvo" !important;
+	font-family: "Open Sans" !important;
 }
 
 li, p {font-family: "Open Sans", Arial, sans-serif !important; font-size:12px}
@@ -41,8 +42,8 @@ ul .none {list-style-type: none !important;}
 
 span .list-box {background-color:#f8810d;}
 
-a {color: #eeeeee;}
-a:hover {color: #f8810d;}
+a {color: #f8810d;}
+a:hover {color: #3100AC;}
 
 a img {border: none;} /* Stupid IE! */
 
