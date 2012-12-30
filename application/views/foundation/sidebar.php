@@ -1,6 +1,6 @@
     <section id="sidebar" class="four columns">
 
-		<a href="<?php echo base_url(); ?>vip" class="hide-for-small get-your-invite" title="Win a free VIP invite to the Elements Exhibition"><i class="icon-credit-card"></i> Get invited!</a>	
+		<a href="<?php echo base_url(); ?>vip" class="hide-for-small get-your-invite" title="Win a free VIP invite to the Elements Exhibition"><i class="icon-credit-card"></i> Get your FREE ticket!</a>	
 	
 		<span class="social" class="row">
 			<input type="text" value="<?php echo $shorturl ;?>" class="shorturl" />

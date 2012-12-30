@@ -27,10 +27,13 @@ header#main {
 	box-shadow: -1px 1px 5px #000;
 }
 
+header#main a {color:white;}
+header#main a:hover {color:#f8810d;}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Open Sans" !important; 
 	color: #2B3A42;
-	font-weight: 100;
+	font-weight: 600;
 }
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
 	font-family: "Open Sans" !important;
@@ -108,6 +111,7 @@ footer .copyright {position: relative; top: 20px;}
 h1.welcome {
 	font-weight: 100;
 }	
+h1.welcome strong {font-family: "Paprika" !important; display: block;}
 
 h4.intro {margin: 15px 0 35px 0; font-family: "Open Sans", Arial, sans-serif !important; font-weight: 400;}
 	h4.intro strong {font-weight: 700; font-family: "Open Sans", Arial, sans-serif !important;}
@@ -115,7 +119,7 @@ h4.intro {margin: 15px 0 35px 0; font-family: "Open Sans", Arial, sans-serif !im
 img.home-image {
 	margin: 5px; 
 	float:right;
-	border: 5px solid #012840;
+	border: 1px solid #012840;
 	}
 
 
@@ -145,16 +149,69 @@ p.intro-paragraph {
 a.get-your-invite {
 	display: block;	
 	font-size: 1.5em;
-	padding: 7px 5px 5px 10px;
-	color: #fff;
-	text-shadow: 1px 1px 0px #b55a02;
-	background: #f8810d url('../images/foundation/action.png') repeat-x;
-	border-radius: 5px;
 	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#f8820d 0%,
+		#e06f0b);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f8820d),
+		to(#e06f0b));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #a15005;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(66,65,66,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+	
 }
 	a.get-your-invite:hover {
 		background: #f8810d;
 	}
+
+.button.orange {
+	color: #ffffff;
+	padding: 8px 0 0 0;
+	background: -moz-linear-gradient(
+		top,
+		#f8820d 0%,
+		#e06f0b);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#f8820d),
+		to(#e06f0b));
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #a15005;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(66,65,66,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+}	
 
 
 input.shorturl {
@@ -180,3 +237,5 @@ input.shorturl {
 	.social .gplus {display: inline-block; width: 60px;}
 	
 	.social {position: relative; top: 5px;}
+
+.orange-text {color: #f8820d; text-shadow: 1px 1px 0px #ddd;}

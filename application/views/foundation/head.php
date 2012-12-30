@@ -22,7 +22,7 @@
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/foundation.min.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/font-awesome.css">  
-  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800|Playball' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800|Paprika' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/app.css">
   <script src="<?php echo base_url(); ?>assets/javascripts/modernizr.foundation.js"></script>
 
