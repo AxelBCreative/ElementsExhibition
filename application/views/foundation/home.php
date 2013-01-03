@@ -1,6 +1,6 @@
 	<header class="header row">	
 			<section class="six columns">
-				<?php echo $heading; ?>
+				<a href=""><img src="assets/images/foundation/home-logo.png" /></a>
 			</section>
 			<section class="six columns">
 				<form id="register" action="register.php">
@@ -25,9 +25,10 @@
 	</header>
 	
 	<section class="row">
+
 					<article class="intro-message six columns">
+						<?php echo $heading; ?>
 						<?php echo $copy; ?>
-						Squarey Images here or maybe a slideshow
 					</article>
 					<article class="six columns">
 						<a href="<?php echo base_url();?>vip"><img src="<?php echo $inviteimage; ?>" class="home-image" alt="Got your invite?" title="Have you got your invite to the Elements Exhibition?" /></a>
