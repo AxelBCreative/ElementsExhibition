@@ -18,8 +18,6 @@ body {
 	/*text-shadow: -2px 1px 0px #012840;*/
 }
 
-p {font-size: 12px;}
-
 header#main {
 	background: #012840 url('../images/foundation/header_bg.png');
 	padding: 15px 0 0 0;
@@ -39,7 +37,7 @@ h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
 	font-family: "Open Sans" !important;
 }
 
-li, p {font-family: "Open Sans", Arial, sans-serif !important; font-size:12px}
+li, p {font-family: "Open Sans", Arial, sans-serif !important; font-size:14px}
 
 ul .none {list-style-type: none !important;}
 
@@ -122,6 +120,7 @@ img.home-image {
 	border: 1px solid #012840;
 	}
 
+.start-exploring {text-align: center;}
 
 /* -----------------------------------------
    Elements Pages & Sidebar
@@ -186,7 +185,7 @@ a.get-your-invite {
 
 .button.orange {
 	color: #ffffff;
-	padding: 8px 0 0 0;
+	padding: 0;
 	background: -moz-linear-gradient(
 		top,
 		#f8820d 0%,
