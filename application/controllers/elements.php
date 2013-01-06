@@ -21,20 +21,25 @@ class Elements extends CI_Controller {
 	
 	public function earth()
 	{
+		$connect = mysql_connect("localhost","phuck_marketing","HXI7ITGWWP");
+		$sql = "SELECT * FROM `phuck_marketing`.`pages` WHERE `pages`.`name` = 'earth'";
+		$result = mysql_query($sql);
+		$row = mysql_fetch_object($result);
+		
 		$data = array(
-			'title' => 'Earth - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
-			'meta_description' => 'Explore the Earth element at the Elements Exhibition',			
-			'heading' => 'This is <strong>Earth!</strong>',
-			'element' => 'Earth',
+			'title' => $row->title ,
+			'meta_description' => $row->meta,			
+			'heading' => $row->heading,
+			'element' => $row->element,
 			'introparagraph' => 'Our home and origin.',
-			'shorturl' => 'http://xzib.it/earth',
+			'shorturl' => $row->shorturl,
 			'tweet' => 'Learn%20about%20the%20element%20earth%20at%20the%20@ElementExhibit',
-			'image_one' => '../assets/images/pics/crop.jpg',
-			'image_one_title' => 'This crop will provide food for a community',
-			'image_two' => '../assets/images/pics/miners.jpg',			
-			'image_two_title' => 'These miners risked life and limb for precious minerals',			
-			'image_three' => '../assets/images/pics/earthquake.jpg',			
-			'image_three_title' => 'The awesome power of tectonic plates unleashed',
+			'image_one' => $row->image_one,
+			'image_one_title' => $row->image_one_title,
+			'image_two' => $row->image_two,			
+			'image_two_title' => $row->image_two_title,			
+			'image_three' => $row->image_three,			
+			'image_three_title' => $row->image_three_title,
 		);
 			
 		$this->load->view('foundation/head', $data);
@@ -45,20 +50,25 @@ class Elements extends CI_Controller {
 	
 	public function water()
 	{
+		$connect = mysql_connect("localhost","phuck_marketing","HXI7ITGWWP");
+		$sql = "SELECT * FROM `phuck_marketing`.`pages` WHERE `pages`.`name` = 'water'";
+		$result = mysql_query($sql);
+		$row = mysql_fetch_object($result);
+		
 		$data = array(
-			'title' => 'Water - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
-			'meta_description' => 'Explore the Water element at the Elements Exhibition',						
-			'heading' => 'This is <strong>Water!</strong>',
-			'element' => 'Water',
+			'title' => $row->title ,
+			'meta_description' => $row->meta,			
+			'heading' => $row->heading,
+			'element' => $row->element,
 			'introparagraph' => 'The driving force in nature.',
-			'shorturl' => 'http://xzib.it/water',
+			'shorturl' => $row->shorturl,
 			'tweet' => 'Learn%20about%20the%20element%20water%20at%20the%20@ElementExhibit',			
-			'image_one' => '../assets/images/pics/hydro-dam.jpg',
-			'image_one_title' => 'This hydroelectric power station provides electricity to thousands of people in Kyrgyz cities',
-			'image_two' => '../assets/images/pics/surfing.jpg',			
-			'image_two_title' => 'Surf\'s up!',			
-			'image_three' => '../assets/images/pics/irrigation.jpg',			
-			'image_three_title' => 'An irrigation ditch, providing water for crops',
+			'image_one' => $row->image_one,
+			'image_one_title' => $row->image_one_title,
+			'image_two' => $row->image_two,			
+			'image_two_title' => $row->image_two_title,			
+			'image_three' => $row->image_three,			
+			'image_three_title' => $row->image_three_title,
 		);
 		
 		$this->load->view('foundation/head', $data);
@@ -69,20 +79,25 @@ class Elements extends CI_Controller {
 	
 	public function fire()
 	{
+		$connect = mysql_connect("localhost","phuck_marketing","HXI7ITGWWP");
+		$sql = "SELECT * FROM `phuck_marketing`.`pages` WHERE `pages`.`name` = 'fire'";
+		$result = mysql_query($sql);
+		$row = mysql_fetch_object($result);
+		
 		$data = array(
-			'title' => 'Fire - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
-			'meta_description' => 'Explore the Fire element at the Elements Exhibition',						
-			'heading' => 'This is <strong>Fire!</strong>',
-			'element' => 'Fire',
+			'title' => $row->title ,
+			'meta_description' => $row->meta,			
+			'heading' => $row->heading,
+			'element' => $row->element,
 			'introparagraph' => 'Keeping us warm; keeping us fed.',
-			'shorturl' => 'http://xzib.it/fire',
+			'shorturl' => $row->shorturl,
 			'tweet' => 'Learn%20about%20the%20element%20fire%20at%20the%20@ElementExhibit',			
-			'image_one' => '../assets/images/pics/cooking.jpg',
-			'image_one_title' => 'We cook to help digestion - and create tasty meals!',
-			'image_two' => '../assets/images/pics/fire-breather.jpg',			
-			'image_two_title' => 'A fire breather shows off his tricks',			
-			'image_three' => '../assets/images/pics/fireworks.jpg',			
-			'image_three_title' => 'Spectacular fireworks displays',			
+			'image_one' => $row->image_one,
+			'image_one_title' => $row->image_one_title,
+			'image_two' => $row->image_two,			
+			'image_two_title' => $row->image_two_title,			
+			'image_three' => $row->image_three,			
+			'image_three_title' => $row->image_three_title,			
 		);
 		
 		$this->load->view('foundation/head', $data);
@@ -93,20 +108,25 @@ class Elements extends CI_Controller {
 	
 	public function air()
 	{
+		$connect = mysql_connect("localhost","phuck_marketing","HXI7ITGWWP");
+		$sql = "SELECT * FROM `phuck_marketing`.`pages` WHERE `pages`.`name` = 'air'";
+		$result = mysql_query($sql);
+		$row = mysql_fetch_object($result);
+		
 		$data = array(
-			'title' => 'Air - The Elements Exhibition |  Earth, Water, Fire, Air - Hassad Museum of Science, London' ,
-			'meta_description' => 'Explore the Air element at the Elements Exhibition',						
-			'heading' => 'This is <strong>Air!</strong>',
-			'element' => 'Air',
+			'title' => $row->title ,
+			'meta_description' => $row->meta,			
+			'heading' => $row->heading,
+			'element' => $row->element,
 			'introparagraph' => 'Fragile flow or ferocious force?',
-			'shorturl' => 'http://xzib.it/air',
+			'shorturl' => $row->shorturl,
 			'tweet' => 'Learn%20about%20the%20element%20air%20at%20the%20@ElementExhibit',			
-			'image_one' => '../assets/images/pics/wind-turbine.jpg',
-			'image_one_title' => 'We use wind to power turbines',
-			'image_two' => '../assets/images/pics/hot-air-balloons.jpg',			
-			'image_two_title' => 'We use hot air to fly balloons',			
-			'image_three' => '../assets/images/pics/sailing.jpg',			
-			'image_three_title' => 'We use wind to power sailing boats',			
+			'image_one' => $row->image_one,
+			'image_one_title' => $row->image_one_title,
+			'image_two' => $row->image_two,			
+			'image_two_title' => $row->image_two_title,			
+			'image_three' => $row->image_three,			
+			'image_three_title' => $row->image_three_title,			
 		);
 		
 		$this->load->view('foundation/head', $data);

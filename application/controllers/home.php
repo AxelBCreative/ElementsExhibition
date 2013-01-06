@@ -4,17 +4,17 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		//$this->load->model('home_data');
+		$connect = mysql_connect("localhost","phuck_marketing","HXI7ITGWWP");
+		$sql = "SELECT * FROM `phuck_marketing`.`pages` WHERE `pages`.`name` = 'homepage'";
+		$result = mysql_query($sql);
+		$row = mysql_fetch_object($result);
+		
 		$data = array(
-		'title' => 'The Elements Exhibition | Earth, Water, Fire, Air - Hassad Museum of Science, London',
-		'meta_description' => 'The Hassad Museum of Science is famous for its world-renowned exhibitions, and now we invite you to explore the elements exhibition.',
-		'heading' => '<h1 class="welcome">Welcome to the <strong>Elements Exhibition!</strong></h1>',
+		'title' => $row->title,
+		'meta_description' => $row->meta,
+		'heading' => $row->heading,
 		'inviteimage' => 'assets/images/foundation/got_your_invite.jpg',
-		'copy' => '<h4 class="intro">The Hassad Museum of Science is famous for its world-renowned exhibits, and now
-						we invite you to explore earth, water, fire, and air at the 
-						<strong><em>Elements Exhibition!</em></strong></h4>
-					
-						'
+		'copy' => $row->body
 		);
 	
 		$this->load->view('foundation/head', $data);

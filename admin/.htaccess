@@ -1,0 +1,3 @@
+# The following line of code essentially include()s all my custom functions at the top of every PHP page.	
+
+php_value auto_prepend_file "bootstrap.inc.php"
