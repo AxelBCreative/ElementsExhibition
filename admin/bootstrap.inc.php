@@ -9,9 +9,9 @@
 //-------------*/
 
 // Defines the main title which will be used throughout the website.
-const siteTitle = "Elements Exhibition";
+//const siteTitle = "Elements Exhibition";
 // Defines the root of the website (in this case we have concatenate my subdirectory but under normal circumstances this wouldn't be necessary).
-define ('root', $_SERVER['DOCUMENT_ROOT'].'/admin/');
+//define ('root', $_SERVER['DOCUMENT_ROOT'].'/admin/');
 
 /*--------------
 //	Database
@@ -222,7 +222,7 @@ class Login
 	public function logout()
 	{
 		if (isset($_SESSION)) session_destroy();
-		header("Location:admin/");
+		header("Location:index.php");
 	}
 }
 /*--------------

@@ -1,5 +1,6 @@
 <?php 
 session_start();
+include('bootstrap.inc.php');
 $connect = new Connection();
 $login = new Login();
 	if($login->isadmin() == false) header("Location:login.php?authentication=false");

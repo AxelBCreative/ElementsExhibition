@@ -1,4 +1,5 @@
 <?php
+include('bootstrap.inc.php');
 $login = new Login();
 
 	// Goes through, and resets, all existing cookies

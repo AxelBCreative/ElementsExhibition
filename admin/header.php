@@ -1,5 +1,6 @@
 <?php
 //header.php for the admin pages
+$login = new Login();
 ?>
 <!doctype html>
 <html>
@@ -18,7 +19,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="brand" href="index.php">Admin Panel</a>
-          <div class="nav-collapse collapse">
+          <?php if ($login->isadmin() == true) {?>
+		  <div class="nav-collapse collapse">
             <ul class="nav">			  
 			  <li class="dropdown">
                       <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-pencil icon-white"></i> Edit Pages <b class="caret"></b></a>
@@ -40,6 +42,7 @@
               </li>			  
             </ul>
           </div>
+		  <?php }?>
         </div>
       </div>
     </div>
