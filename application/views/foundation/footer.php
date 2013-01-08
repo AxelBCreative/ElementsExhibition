@@ -1,6 +1,7 @@
-  <footer class="row">
+  <footer>
+	<section class="row">
 			<span class="six columns hide-for-small">
-				<a href="<?php echo base_url(); ?>">Home</a> | <a href="blog">Blog</a> | <a href="privacy">Privacy Policy</a>
+				<a href="<?php echo base_url(); ?>">Home</a> | <a href="<?php echo base_url();?>privacy">Privacy Policy</a> | <a href="<?php echo base_url();?>sitemap">Sitemap</a> | <a href="<?php echo base_url();?>admin">Admin</a>
 				&nbsp;
 				<span class="social social-footer">
 					<g:plusone size="medium"></g:plusone>
@@ -11,8 +12,16 @@
 		
 			<span class="six columns text-right copyright">
 				&copy; Copyright <?php echo date('Y'); ?> <a href="<?php echo base_url();?>">The Hassad Museum of Science</a>
-			</span>		
-			
+			</span>					
+	</section>
+	<section class="row hide-for-small">
+		<span class="ten columns long-info">
+			The Hassad Museum of Science, part of Hassad Group Ltd. estd 1792, Registered Company in the United Kingdom of Great
+			Britain and Northern Ireland since 1800, company number <abbr title="70 97 107 101 = 'Fake' in Decimal">7097107101</abbr>.
+			Bringing science and elements exhibitions to the world and making it a form of entertainment for the masses. 
+			A quick note, however, that not	everything you see on this website is genuine. In fact, to be quite truthful, none of it is.
+		</span>
+	</section>
   </footer>
   
   <!-- Included JS Files (Compressed) -->

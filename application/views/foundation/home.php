@@ -3,7 +3,7 @@
 				<a href=""><img src="assets/images/foundation/home-logo.png" /></a>
 			</section>
 			<section class="six columns">
-				<img src="<?php echo base_url();?>/assets/images/pics/got-your-ticket.png" title="Get your ticket to the Elements Exhibition" alt="Got your ticket?" />
+				<img class="hide-for-small" src="<?php echo base_url();?>/assets/images/pics/got-your-ticket.png" title="Get your ticket to the Elements Exhibition" alt="Got your ticket?" />
 			</section>
 	</header>
 	
@@ -16,10 +16,10 @@
 					<article class="six columns">
 													
 							<div>
-								<h3>Now you have!</h3>
+								<h3 class="hide-for-small">Now you have!</h3>
 								<h6>Your unique invite code is: <span class="radial label code"><?php echo $code = strtoupper(base_convert((mt_rand(1e1, 9e9)), 10, 32));?></span></h6>
 								<p>Simply present this on the day for instant entry!</p>
-								<form action="" method="post">
+								<form class="hide-for-small" action="" method="post">
 								<label>Email me my ticket</label>
 								<div class="row collapse">
 									<div class="one columns">

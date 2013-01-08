@@ -64,34 +64,27 @@ img#logo {margin-top: -5px;}
 
 nav#elements{ 
 	font-family: 'Open Sans', Arial, sans-serif !important; 
-	font-weight: 100;
 	text-transform: uppercase;
-	margin-top: 8px;
-	margin-bottom: 20px;
+	margin-top: 27px;
+	margin-bottom:20px;
 }
 	nav#elements a {
 		font-weight: 700;
 		font-size: 1.7em;
 		margin: 0 20px 0 0;
 	}
-	@media only screen and (max-width: 1024px) {nav#elements a {font-size: 1.45em;}}
-	@media only screen and (max-width: 320px) {nav#elements a {font-size: 1.2em;}}	
+	@media only screen and (max-width: 1023px) {nav#elements a {position: relative; top: -10px !important;}}	
+	@media only screen and (max-width: 320px) {nav#elements a {font-size: 1.2em;}}
+	@media only screen and (max-width: 800px) {nav#elements a {margin-right:10px;}}		
 	
 		nav#elements a#earth {color: #ad3e13;}
 		nav#elements a#water {color: #64a8c2;}
 		nav#elements a#fire {color: #f1901f;}
 		nav#elements a#air {color: #a2a5a9;}		
-
-	nav#main {
-		font-size: .8em;
-		font-weight: 400;
-		text-transform: uppercase !important;
-		margin: 15px 0 0 0;
-		
-	}
-		nav#main a {
-			margin: 0 10px 0 10px;
-		}		
+				nav#elements a#earth:hover {border-bottom: 3px solid #ad3e13;}
+				nav#elements a#water:hover {border-bottom: 3px solid #64a8c2;}
+				nav#elements a#fire:hover {border-bottom: 3px solid #f1901f;}
+				nav#elements a#air:hover {border-bottom: 3px solid #a2a5a9;}	
 		
 footer {
 	font-size:12px;
@@ -109,7 +102,7 @@ footer .copyright {position: relative; top: 20px;}
 h1.welcome {
 	font-weight: 100;
 }	
-h1.welcome strong {font-family: "Paprika" !important; display: block;}
+h1.welcome strong {font-family: "Arvo" !important; display: block;}
 
 h4.intro {margin: 15px 0 35px 0; font-family: "Open Sans", Arial, sans-serif !important; font-weight: 400;}
 	h4.intro strong {font-weight: 700; font-family: "Open Sans", Arial, sans-serif !important;}
@@ -223,6 +216,10 @@ input.shorturl {
 
 .orbit-wrapper {margin: 10px 0 0 -10px;}
 
+/* -----------------------------------------
+   Footer Styles
+----------------------------------------- */
+footer .long-info, footer .long-info abbr {margin: 10px 0 0 0; color: #aaa; line-height:18px}
 /* -----------------------------------------
    Helper Styles
 ----------------------------------------- */
