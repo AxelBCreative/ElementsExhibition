@@ -135,7 +135,15 @@ p.intro-paragraph {
 
 }
 
-/*#sidebar {top: -110px;}*/
+.elements-caption {
+	max-width:40% !important; 
+	background: #f8820d; 
+	font-size:1.5em; 
+	position: absolute;
+	bottom: 50px;
+	padding: 12px;
+	color: white;
+}
 
 .orange {color: #f8810d;}
 

@@ -27,7 +27,7 @@
     
   
   
-    $("#featured").orbit();
+    $("#featured").orbit({directionalNav:'false',bullets:'true'});
 	$("#featured-home-invite").orbit({advanceSpeed:6000,animationSpeed:600,directionalNav:false});
 	$("#featured-home-top-left").orbit({bullets:true,directionalNav:false,animation:'fade'});
 	$("#featured-home-top-right").orbit({bullets:true,directionalNav:false,animation:'fade'});	

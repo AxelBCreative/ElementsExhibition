@@ -2,9 +2,18 @@
     <div class="eight columns">  
 		<section class="twelve columns">
 		  <div id="featured">
-			<img src="<?php echo $image_two; ?>" alt="<?php echo $image_two_title; ?>" title="<?php echo $image_two_title; ?> - Learn at the Elements Exhibition">		  
-			<img src="<?php echo $image_one; ?>" alt="<?php echo $image_one_title; ?>" title="<?php echo $image_one_title; ?> - Learn at the Elements Exhibition">
-			<img src="<?php echo $image_three; ?>" alt="<?php echo $image_three_title; ?>" title="<?php echo $image_three_title; ?> - Learn at the Elements Exhibition">
+			<div data-caption="#image-one">
+				<div class="elements-caption"><?php echo $image_one_title; ?></div>
+				<img src="<?php echo $image_one; ?>" alt="<?php echo $image_one_title; ?>" title="<?php echo $image_one_title; ?> - Learn at the Elements Exhibition">
+			</div>
+			<div data-caption="#image-two">
+				<div class="elements-caption"><?php echo $image_two_title; ?></div>			
+				<img src="<?php echo $image_two; ?>" alt="<?php echo $image_two_title; ?>" title="<?php echo $image_two_title; ?> - Learn at the Elements Exhibition">
+			</div>
+			<div data-caption="#image-three">
+				<div class="elements-caption"><?php echo $image_three_title; ?></div>			
+				<img src="<?php echo $image_three; ?>" alt="<?php echo $image_three_title; ?>" title="<?php echo $image_three_title; ?> - Learn at the Elements Exhibition">
+			</div>
 		  </div>
 		</section>
  
