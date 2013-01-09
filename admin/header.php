@@ -37,6 +37,10 @@ $login = new Login();
                     </li>
 			  <li class="divider-vertical"></li>
 			  <li class="">
+                <a href="../"><i class="icon-home icon-white"></i> View Site</a>
+              </li>			  
+			  <li class="divider-vertical"></li>			  
+			  <li class="">
                 <a href="help.php">Help</a>
               </li>
               <li class="">
