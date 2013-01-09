@@ -43,4 +43,23 @@
   })();
 
   </script>  
+  <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+cc.initialise({
+	cookies: {
+		social: {},
+		analytics: {},
+		necessary: {}
+	},
+	settings: {
+		consenttype: "implicit"
+	}
+});
+// ]]>
+</script>
+<!-- End Cookie Consent plugin -->
+
 </head>

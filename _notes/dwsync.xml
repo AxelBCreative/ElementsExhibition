@@ -6,4 +6,6 @@
 <file name=".gitattributes" server="ftp.geniusbydesign.co.uk//public_html/sites/elementsexhibition/" local="129869482121087394" remote="129966766200000000" Dst="1" />
 <file name=".htaccess" server="ftp.geniusbydesign.co.uk//public_html/sites/elementsexhibition/" local="129971974252592753" remote="129971905200000000" Dst="1" />
 <file name="humans.txt" server="ftp.geniusbydesign.co.uk//public_html/sites/elementsexhibition/" local="129954674880000000" remote="129966766800000000" Dst="1" />
+<file name="sitemap.xml" server="ftp.geniusbydesign.co.uk//public_html/sites/elementsexhibition/" local="130021392536820497" remote="130021186200000000" Dst="1" />
+<file name="sitemap.xsl" server="ftp.geniusbydesign.co.uk//public_html/sites/elementsexhibition/" local="130021390383487333" remote="130021186200000000" Dst="1" />
 </dwsync>
