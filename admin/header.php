@@ -31,6 +31,8 @@ $login = new Login();
                         <li><a tabindex="-1" href="water.php">Water Page</a></li>
                         <li><a tabindex="-1" href="fire.php">Fire Page</a></li>
                         <li><a tabindex="-1" href="air.php">Air Page</a></li>						
+						<li class="divider"></li>
+                        <li><a tabindex="-1" href="gallery.php">Image Gallery</a></li>												
                       </ul>
                     </li>
 			  <li class="divider-vertical"></li>

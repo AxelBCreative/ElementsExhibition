@@ -16,12 +16,19 @@
 			</span>					
 	</section>
 	<section class="row hide-for-small">
-		<span class="ten columns long-info">
+		<span class="nine columns long-info">
 			The Hassad Museum of Science, part of Hassad Group Ltd. estd 1792, Registered Company in the United Kingdom of Great
 			Britain and Northern Ireland since 1800, company number <abbr title="70 97 107 101 = 'Fake' in Decimal">7097107101</abbr>.
 			Bringing science and elements exhibitions to the world and making it a form of entertainment for the masses. 
 			A quick note, however, that not	everything you see on this website is genuine. In fact, to be quite truthful, none of it is.
 			Site by <a href="https://plus.google.com/107079528579619073276?rel=author">Sacha Corazzi</a>
+		</span>
+		<span class="three columns reciprocol-links">
+			<strong>Other Exhibitions</strong>
+			<ul>
+				<li><a href="http://rstockdale.co.uk/elements/" target="_blank" rel="nofollow">Stockdale Elements, Hull</a></li>
+				<li><a href="http://netjuicedesign.com/" target="_blank" rel="nofollow">Netjuice Elements, Hull</a></li>
+			</ul>
 		</span>
 	</section>	
   </footer>
