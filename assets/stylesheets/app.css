@@ -246,7 +246,7 @@ footer .long-info, footer .long-info abbr {margin: 10px 0 0 0; color: #aaa; line
 
 .main-nav {text-align: right;}
 
-.social {margin: 10px 0 -14px 0; display: block; }
+.social {margin: 10px 0 -14px 0; display: inline-block; }
 	.social .twitter {display: inline-block; width: 80px; }
 	.social .gplus {display: inline-block; width: 60px;}
 	
