@@ -152,12 +152,14 @@ p.intro-paragraph {
 .tab-head, ul.tabs-content h4 {font-family: "Open Sans" !important; font-weight: bold;}
 
 a.get-your-invite {
+	behavior: url('PIE.htc');
 	display: block;	
 	font-size: 1.5em;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #ffffff;
 	padding: 10px 20px;
+	background: #f8820d;
 	background: -moz-linear-gradient(
 		top,
 		#f8820d 0%,
@@ -166,6 +168,7 @@ a.get-your-invite {
 		linear, left top, left bottom, 
 		from(#f8820d),
 		to(#e06f0b));
+	background: linear-gradient(#F8820D, #e06f0b);		
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
@@ -192,6 +195,7 @@ a.get-your-invite {
 .button.orange {
 	color: #ffffff;
 	padding: 0;
+	background: #f8820d;
 	background: -moz-linear-gradient(
 		top,
 		#f8820d 0%,
@@ -222,9 +226,10 @@ a.get-your-invite {
 input.shorturl {
 	display: inline;
 	width: 125px;
-	height: 20px;
+	height: 22px;
 	position: relative;
-	top: 12px;
+	top: -5px;
+	padding: 0px 5px 0 5px;
 }
 
 .orbit-wrapper {margin: 10px 0 0 -10px;}
@@ -241,7 +246,7 @@ footer .long-info, footer .long-info abbr {margin: 10px 0 0 0; color: #aaa; line
 
 .main-nav {text-align: right;}
 
-.social {margin: 10px 0 10px 0; display: inline-block;}
+.social {margin: 10px 0 -14px 0; display: block; }
 	.social .twitter {display: inline-block; width: 80px; }
 	.social .gplus {display: inline-block; width: 60px;}
 	
