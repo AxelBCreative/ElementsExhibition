@@ -7,26 +7,17 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-
-  <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
   <meta name="description" content="<?php echo $meta_description ?>" />
 
   <title><?php echo $title; ?></title>
-  
-  <!-- Included CSS Files (Uncompressed) -->
-  
-  <!--<link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/foundation.css">-->
-  
-  
-  <!-- Included CSS Files (Compressed) -->
+ 
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/foundation.min.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/font-awesome.css">  
   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic|Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800|Paprika' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/app.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/app-min.css">
   <script src="<?php echo base_url(); ?>assets/javascripts/modernizr.foundation.js"></script>
 
-  <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -42,8 +33,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-  </script>  
-  <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+  </script> 
 <link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
 <script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
 <script type="text/javascript">
@@ -60,6 +50,4 @@ cc.initialise({
 });
 // ]]>
 </script>
-<!-- End Cookie Consent plugin -->
-
 </head>
